@@ -1,0 +1,2 @@
+class UserRunesController < ApplicationController
+end

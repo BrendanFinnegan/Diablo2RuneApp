@@ -10,20 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_27_154350) do
+ActiveRecord::Schema.define(version: 2021_09_27_193803) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "combinations", force: :cascade do |t|
-    t.string "name"
+  create_table "combination_runes", force: :cascade do |t|
     t.integer "runeword_id"
-    t.integer "rune_idA"
-    t.integer "rune_idB"
-    t.integer "rune_idC"
-    t.integer "rune_idD"
-    t.integer "rune_idE"
-    t.integer "rune_idF"
+    t.integer "rune_id"
+    t.string "word_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -41,6 +36,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_154350) do
     t.string "item_type"
     t.integer "runeAmount"
     t.string "stats"
+    t.string "word"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -57,7 +53,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_154350) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
-    t.string "password"
+    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

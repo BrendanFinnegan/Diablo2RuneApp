@@ -1,0 +1,2 @@
+class CombinationRunesController < ApplicationController
+end
