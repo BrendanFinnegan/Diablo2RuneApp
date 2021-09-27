@@ -1,0 +1,2 @@
+class UserRune < ApplicationRecord
+end

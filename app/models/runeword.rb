@@ -1,0 +1,2 @@
+class Runeword < ApplicationRecord
+end
