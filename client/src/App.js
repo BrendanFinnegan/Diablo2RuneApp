@@ -67,7 +67,7 @@ justifyContent="flex-start"
         </Route>
 
         <Route exact path="/myrunes">
-          <MyRunes currentUser={currentUser}/>
+          <MyRunes userRunes={userRunes} currentUser={currentUser}/>
         </Route>
 
         <Route exact path="/myrunewords">

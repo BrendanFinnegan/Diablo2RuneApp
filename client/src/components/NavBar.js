@@ -14,7 +14,7 @@ function NavBar({currentUser, setCurrentUser}){
         <>
         <Navbar  variant="dark" style={{ backgroundColor: 'black', height: '100vh', textAlign: 'left', paddingTop: '20px'}}>
             <Container >
-                <Navbar.Brand  style={{fontFamily:'Reem Kufi', color: 'white', fontSize: 'x-large', margin: '10px', paddingLeft: '25px', textDecoration: 'none'}} href="/">My Guitar Space</Navbar.Brand>
+                <Navbar.Brand  style={{fontFamily:'Reem Kufi', color: 'white', fontSize: 'x-large', margin: '10px', paddingLeft: '25px', textDecoration: 'none'}} href="/">D2 Rune App</Navbar.Brand>
                 <Nav className="me-auto">
                 <br/>
                 <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Reem Kufi', paddingLeft: '40px'}} className="color-links" href="/">Home</Nav.Link>  <br/>
