@@ -13,4 +13,8 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy"
   get "/me", to: "sessions#show"
   get "/getRunes/:id", to: "users#get_runes"
+  get "/allrunewords", to: "runewords#index"
+  get "/myrunewords/:id", to: "runewords#user_words"
+
+
 end

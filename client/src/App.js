@@ -15,6 +15,7 @@ function App() {
 
   const [currentUser, setCurrentUser] = useState([])
   const [userRunes, setUserRunes] = useState([])
+  const [myRuneWords, setMyRuneWords] = useState([])
   const history = useHistory()
 
   useEffect(() => {
@@ -40,6 +41,22 @@ function App() {
         setUserRunes([])
       }
     }, [currentUser])
+
+
+
+    useEffect(() => {
+      if (currentUser.id)
+        fetch(`/myrunewords/${currentUser.id}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.length > 0) {
+            setMyRuneWords(data)
+            console.log(data)
+          } 
+        })
+        }, [currentUser])
+
+        console.log(myRuneWords)
 
         console.log(userRunes)
         console.log(currentUser)
@@ -71,7 +88,7 @@ justifyContent="flex-start"
         </Route>
 
         <Route exact path="/myrunewords">
-          <MyRuneWords currentUser={currentUser}/>
+          <MyRuneWords userWords={myRuneWords} currentUser={currentUser}/>
         </Route>
 
 
