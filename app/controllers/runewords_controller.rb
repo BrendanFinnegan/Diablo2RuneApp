@@ -39,8 +39,6 @@ class RunewordsController < ApplicationController
 
             render json: userWordsArray
 
-      
-
     end
 
     private

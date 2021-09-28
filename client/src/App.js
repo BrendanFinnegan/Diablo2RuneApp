@@ -15,6 +15,7 @@ function App() {
 
   const [currentUser, setCurrentUser] = useState([])
   const [userRunes, setUserRunes] = useState([])
+  const [allRunes, setAllRunes] = useState([])
   const [myRuneWords, setMyRuneWords] = useState([])
   const history = useHistory()
 
@@ -42,7 +43,19 @@ function App() {
       }
     }, [currentUser])
 
-
+    useEffect(() => {
+      if (currentUser.id) {
+        fetch(`/getallrunes`)
+        .then(res => res.json())
+        .then(data =>{
+          if (data.length > 0){
+            setAllRunes(data)
+          }
+        })
+      } else {
+        setUserRunes([])
+      }
+    }, [currentUser])
 
     useEffect(() => {
       if (currentUser.id)
@@ -56,10 +69,10 @@ function App() {
         })
         }, [currentUser])
 
-        console.log(myRuneWords)
 
-        console.log(userRunes)
-        console.log(currentUser)
+
+
+
 
   return (
     <div className="App">
@@ -68,11 +81,11 @@ function App() {
 direction="row"
 justifyContent="flex-start"
 >
-  <Grid item xs={2} >
-    <NavBar />
-    
+    <Grid item xs={2} >
+      <NavBar />
     </Grid>
-    <Grid item xs={8} >
+    
+    <Grid item xs={10} >
     <Switch>
 
       <Route exact path="/login">
@@ -84,7 +97,7 @@ justifyContent="flex-start"
         </Route>
 
         <Route exact path="/myrunes">
-          <MyRunes userRunes={userRunes} currentUser={currentUser}/>
+          <MyRunes allRunes={allRunes} userRunes={userRunes} currentUser={currentUser} setUserRunes={setUserRunes}/>
         </Route>
 
         <Route exact path="/myrunewords">

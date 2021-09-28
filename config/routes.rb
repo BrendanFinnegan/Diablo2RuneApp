@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get "/getRunes/:id", to: "users#get_runes"
   get "/allrunewords", to: "runewords#index"
   get "/myrunewords/:id", to: "runewords#user_words"
+  get "/getallrunes", to: "runes#index"
+  post "/userrunes", to: "user_runes#create"
 
 
 end

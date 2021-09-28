@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_193803) do
     t.string "item_type"
     t.integer "runeAmount"
     t.string "stats"
-    t.string "word"
+    t.string "order"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

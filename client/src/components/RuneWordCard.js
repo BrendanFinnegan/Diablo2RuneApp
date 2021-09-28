@@ -14,10 +14,10 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 
-function RuneWordCard ({name, stats, id, rank}) {
+function RuneWordCard ({name, stats, id, rank, itemType, word}) {
 
     return(
-        <Card className='runecard' style={{ alignItems:'center', boxShadow: '1px 1px 4px 5px #750000', flexDirection: 'column', height: '20vh', width: '61vw', overflow: 'auto'}}> 
+        <Card className='runecard' style={{ alignItems:'center', boxShadow: '1px 1px 4px 5px #750000', flexDirection: 'column', overflow: 'auto'}}> 
         <Grid item container
      
   direction="row"
@@ -31,6 +31,12 @@ function RuneWordCard ({name, stats, id, rank}) {
           </Grid>
           <Grid item xs={3}>
                 <h3>rank: {rank}</h3>
+          </Grid>
+          <Grid item xs={3}>
+                <h3>Item Type: {itemType}</h3>
+          </Grid>
+          <Grid item xs={3}>
+                <h3>Word: {word}</h3>
           </Grid>
 
           </Grid>
