@@ -92,9 +92,38 @@ UserRune.create(name: 'Tir', user_id: 1, rune_id: 3)
 UserRune.create(name: 'Nef', user_id: 1, rune_id: 4)
 UserRune.create(name: 'Eth', user_id: 2, rune_id: 5)
 UserRune.create(name: 'El', user_id: 2, rune_id: 1)
-Runeword.create(name: 'Steel', item_type: 'Weapon', runeAmount: 2, stats: '20% Enhanced Damage', order: 'Tir El', image_url: 'https://www.almarsguides.com/AlmarsImages/Computer/Games/Diablo2/Misc/RuneWords/Weapon/Steel%20RuneWord%20in%20Tomahawk.png')
-Runeword.create(name: 'Nadir', item_type: 'Helmet', runeAmount: 2, stats: '+50% Enhanced Defense', order: 'Nef Tir', image_url: 'https://diablo2.diablowiki.net/images/d/d0/Nadir.png')
-Runeword.create(name: 'Ancients Pledge', item_type: 'Shield', runeAmount: 3, stats: '+50% Enhanced Defense', order: 'Ral Ort Tal', image_url: 'https://diablo2.diablowiki.net/images/6/6d/Ancients-inherent.jpg')
+
+Runeword.create(name: 'Steel', category: 1 , item_type: '2 Socket Swords/Axes/Maces', runeAmount: 2, stats: '20% Enhanced Damage
++3 To Minimum Damage
++3 To Maximum Damage
++50 To Attack Rating
+50% Chance Of Open Wounds
+25% Increased Attack Speed
++2 To Mana After Each Kill
++1 To Light Radius', order: 'Tir El', image_url: 'https://diablo2.diablowiki.net/images/c/c9/Steel.png')
+Runeword.create(name: 'Nadir', category: 4 , item_type: '2 Socket Helms', runeAmount: 2, stats: '+50% Enhanced Defense
++10 Defense
++30 Defense vs. Missile
+Level 13 Cloak of Shadows (9 Charges)
++2 To Mana After Each Kill
++5 To Strength
+-33% Extra Gold From Monsters
+-3 To Light Radius', order: 'Nef Tir', image_url: 'https://diablo2.diablowiki.net/images/d/d0/Nadir.png')
+Runeword.create(name: 'Ancients Pledge', category: 3 , item_type: '3 Socket Shields', runeAmount: 3, stats: '+50% Enhanced Defense
+Cold Resist +43%
+Fire Resist +48%
+Lightning Resist +48%
+Poison Resist +48%
+10% Damage Goes To Mana', order: 'Ral + Ort + Tal', image_url: 'https://diablo2.diablowiki.net/images/1/16/Ancientspledge.png')
+
+Runeword.create(name: 'Stealth', category: 2 , item_type: '2 Socket Body Armor', runeAmount: 2, stats: '+25% Faster Run/Walk
++25% Faster Casting Rate
++25% Faster Hit Recovery
++6 to Dexterity
+Regenerate Mana 15%
++15 Maximum Stamina
+Poison Resist +30%
+Magic Damage Reduced by 3', order: 'Tal + Eth', image_url: 'https://diablo2.diablowiki.net/images/1/19/Stealth.png')
 CombinationRune.create(word_name: 'steel',  runeword_id: 1, rune_id: 1)
 CombinationRune.create(word_name: 'steel', runeword_id: 1, rune_id: 3)
 
@@ -105,6 +134,9 @@ CombinationRune.create(word_name: 'Nadir Combo', runeword_id: 2, rune_id: 3)
 CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id: 8)
 CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id: 9)
 CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id:10)
+
+CombinationRune.create(word_name: 'Stealth Armor', runeword_id: 4, rune_id:7)
+CombinationRune.create(word_name: 'Stealth Armor', runeword_id: 4, rune_id:5)
 
 
 puts 'Done Seeding!'

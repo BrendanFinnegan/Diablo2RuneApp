@@ -55,7 +55,7 @@ function MyRuneWords ({userWords}) {
                   </AccordionSummary>
                   <AccordionDetails>
                         <>
-                        <RuneWordCard itemType={runeword.item_type} name={runeword.name} stats={runeword.stats} word={runeword.order} id={runeword.id} rank={runeword.id} />
+                        <RuneWordCard itemType={runeword.item_type} name={runeword.name} stats={runeword.stats} word={runeword.order} id={runeword.id} rank={runeword.id} image={runeword.image_url} />
                         </>
                       </AccordionDetails>
                       </Accordion>
