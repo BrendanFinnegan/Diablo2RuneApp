@@ -14,24 +14,28 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 
-function RuneCard ({name, stats, id, rank}) {
+function RuneCard ({name, weaponStats, armorStats, id, rank, image}) {
 
     return(
-        <Card className='runecard' style={{ alignItems:'center', boxShadow: '1px 1px 4px 5px #750000', flexDirection: 'column', height: '20vh', width: '61vw', overflow: 'auto'}}> 
+        <Card className='runecard' style={{ alignItems:'center', boxShadow: '1px 1px 4px 5px #000000', flexDirection: 'column', height: '12vh', width: '61vw', overflow: 'auto'}}> 
         <Grid item container
      
   direction="row"
   justifyContent="flex-start"
   alignItems="flex-start">
-          <Grid item xs={3}>
-                <h3>name: {name}</h3>   
-          </Grid>
-          <Grid item xs={3}>
-                <h3>stats: {stats}</h3>
-          </Grid>
-          <Grid item xs={3}>
+      <Grid item xs={1}>
                 <h3>rank: {rank}</h3>
           </Grid>
+          <Grid item xs={5}>
+                <h3>Weapon: {weaponStats}</h3>   
+          </Grid>
+          <Grid item xs={5}>
+                <h3>Armor: {armorStats}</h3>
+          </Grid>
+          <Grid item xs={1}>
+                <img style={{marginTop: '15px', height: '50px', width: '50px'}} src={image} />
+          </Grid>
+
 
           </Grid>
           </Card>

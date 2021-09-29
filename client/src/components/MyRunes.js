@@ -61,7 +61,7 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
     </AccordionSummary>
     <AccordionDetails>
           <>
-          <RuneCard id={rune.id} name={rune.name} stats={rune.stats} rank={rune.id} />
+          <RuneCard id={rune.id} name={rune.name} weaponStats={rune.weapon_stats} armorStats={rune.armor_stats} rank={rune.id} image={rune.image_url} />
           </>
         </AccordionDetails>
         </Accordion>

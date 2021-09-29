@@ -25,7 +25,8 @@ ActiveRecord::Schema.define(version: 2021_09_27_193803) do
 
   create_table "runes", force: :cascade do |t|
     t.string "name"
-    t.string "stats"
+    t.string "weapon_stats"
+    t.string "armor_stats"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

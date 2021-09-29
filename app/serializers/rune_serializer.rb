@@ -1,3 +1,3 @@
 class RuneSerializer < ActiveModel::Serializer
-  attributes :id, :name, :stats, :image_url
+  attributes :id, :name, :weapon_stats, :image_url, :armor_stats
 end
