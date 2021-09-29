@@ -57,10 +57,10 @@ function AllRuneWords () {
             }));
             const classes = useStyles();
 
-        let runeWordCards = allRuneWords.map( runeword => {
+        let weaponWordCards = allRuneWords.map( runeword => {
             
         
-            return <Grid item key={runeword.id}>
+            if (runeword.category === 1) return <Grid item key={runeword.id}>
             <Accordion style={{ boxShadow: "none", paddingLeft: "20px" }}  >
         <AccordionSummary  className={classes.root} >
         <Typography className={classes.heading} > {runeword.name}, {runeword.item_type}  </Typography>
@@ -73,15 +73,84 @@ function AllRuneWords () {
             </Accordion>
     </Grid>
         
+        })
+
+
+        let armorWordCards = allRuneWords.map( runeword => {
+            
         
+            if (runeword.category === 2)  return <Grid item key={runeword.id}>
+            <Accordion style={{ boxShadow: "none", paddingLeft: "20px" }}  >
+        <AccordionSummary  className={classes.root} >
+        <Typography className={classes.heading} > {runeword.name}, {runeword.item_type}  </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+              <>
+              <RuneWordCard itemType={runeword.item_type} name={runeword.name} stats={runeword.stats} word={runeword.order} id={runeword.id} rank={runeword.id} image={runeword.image_url}/>
+              </>
+            </AccordionDetails>
+            </Accordion>
+    </Grid>
         
+        })
+
+
+
+        let helmetWordCards = allRuneWords.map( runeword => {
+            
+        
+            if (runeword.category === 4)  return <Grid item key={runeword.id}>
+            <Accordion style={{ boxShadow: "none", paddingLeft: "20px" }}  >
+        <AccordionSummary  className={classes.root} >
+        <Typography className={classes.heading} > {runeword.name}, {runeword.item_type}  </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+              <>
+              <RuneWordCard itemType={runeword.item_type} name={runeword.name} stats={runeword.stats} word={runeword.order} id={runeword.id} rank={runeword.id} image={runeword.image_url}/>
+              </>
+            </AccordionDetails>
+            </Accordion>
+    </Grid>
+        
+        })
+
+        let shieldWordCards = allRuneWords.map( runeword => {
+            
+        
+            if (runeword.category === 3)  return <Grid item key={runeword.id}>
+            <Accordion style={{ boxShadow: "none", paddingLeft: "20px" }}  >
+        <AccordionSummary  className={classes.root} >
+        <Typography className={classes.heading} > {runeword.name}, {runeword.item_type}  </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+              <>
+              <RuneWordCard itemType={runeword.item_type} name={runeword.name} stats={runeword.stats} word={runeword.order} id={runeword.id} rank={runeword.id} image={runeword.image_url}/>
+              </>
+            </AccordionDetails>
+            </Accordion>
+    </Grid>
         
         })
 
     return (
         <>
         <h2>All Rune Words</h2>
-        {runeWordCards}
+        <p>Click any word to expand for more details</p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <h2>Weapons</h2>
+        {weaponWordCards}
+        <h2>Armor</h2>
+        {armorWordCards}
+        <h2>Shields</h2>
+        {shieldWordCards}
+        <h2>Helmets</h2>
+        {helmetWordCards}
   </>
     )
 }
