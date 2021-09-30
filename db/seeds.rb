@@ -231,7 +231,7 @@ Cold Resist +33%",  image_url: 'https://diablo2.diablowiki.net/images/d/da/Uber_
 CombinationRune.create(word_name: "Leaf",  runeword_id:9 , rune_id: 3)
 CombinationRune.create(word_name: "Leaf", runeword_id:9 , rune_id: 8)
 
-Runeword.create(name: "Lionheart", category: 2 , runeAmount: , item_type: '3 Socket Body Armor', order: 'Hel + Lum + Fal', stats: "+20% Enhanced Damage
+Runeword.create(name: "Lionheart", category: 2 , runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Hel + Lum + Fal', stats: "+20% Enhanced Damage
 Requirements -15%
 +25 To Strength
 +10 To Energy
@@ -670,7 +670,7 @@ CombinationRune.create(word_name: "Heart of the Oak", runeword_id: 41, rune_id: 
 CombinationRune.create(word_name: "Heart of the Oak",  runeword_id: 41, rune_id: 21)
 CombinationRune.create(word_name: "Heart of the Oak", runeword_id: 41, rune_id: 10)
 
-Runeword.create(name: "Kingslayer", category:  , runeAmount: , item_type: '4 Socket Swords/Axes', order: 'Mal + Um + Gul + Fal', stats: "+30% Increased Attack Speed
+Runeword.create(name: "Kingslayer", category: 1, runeAmount: 4, item_type: '4 Socket Swords/Axes', order: 'Mal + Um + Gul + Fal', stats: "+30% Increased Attack Speed
 +230-270% Enhanced Damage (varies)
 -25% Target Defense
 20% Bonus To Attack Rating
@@ -702,13 +702,597 @@ CombinationRune.create(word_name: "Passion", runeword_id: 43, rune_id: 9)
 CombinationRune.create(word_name: "Passion",  runeword_id: 43, rune_id: 2)
 CombinationRune.create(word_name: "Passion", runeword_id: 43, rune_id: 20)
 
-Runeword.create(name: "", category:  , runeAmount: , item_type: '', order: '', stats: "",  image_url: '')
-CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
-CombinationRune.create(word_name: "", runeword_id: , rune_id: )
-CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
-CombinationRune.create(word_name: "", runeword_id: , rune_id: )
-CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
-CombinationRune.create(word_name: "", runeword_id: , rune_id: )
+Runeword.create(name: "Prudence", category: 2, runeAmount: 2, item_type: '2 Socket Body Armor', order: 'Mal + Tir', stats: "+25% Faster Hit Recovery
++140-170% Enhanced Defense (varies)
+All Resistances +25-35 (varies)
+Damage Reduced by 3
+Magic Damage Reduced by 17
++2 To Mana After Each Kill
++1 To Light Radius
+Repairs Durability 1 In 4 Seconds",  image_url: 'https://diablo2.diablowiki.net/images/e/ef/Prudence.png')
+CombinationRune.create(word_name: "Prudence",  runeword_id: 44, rune_id: 23)
+CombinationRune.create(word_name: "Prudence", runeword_id: 44, rune_id: 3)
+
+Runeword.create(name: "Sanctuary", category:  3, runeAmount: 3, item_type: '3 Socket Shields', order: 'Ko + Ko + Mal', stats: "+20% Faster Hit Recovery
++20% Faster Block Rate
+20% Increased Chance of Blocking
++130-160% Enhanced Defense (varies)
++250 Defense vs. Missile
++20 To Dexterity
+All Resistances +50-70 (varies)
+Magic Damage Reduced By 7
+Level 12 Slow Missiles (60 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/e/ed/Sanctuary.png')
+CombinationRune.create(word_name: "Sanctuary",  runeword_id: 45, rune_id: 18)
+CombinationRune.create(word_name: "Sanctuary", runeword_id: 45, rune_id: 23)
+
+Runeword.create(name: "Splendor", category: 3 , runeAmount: 2 , item_type: '2 Socket Shields', order: 'Eth + Lum', stats: "+1 To All Skills
++10% Faster Cast Rate
++20% Faster Block Rate
++60-100% Enhanced Defense (varies)
++10 To Energy
+Regenerate Mana 15%
+50% Extra Gold From Monsters
+20% Better Chance of Getting Magic Items
++3 To Light Radius",  image_url: 'https://diablo2.diablowiki.net/images/6/65/Splendor.png')
+CombinationRune.create(word_name: "Splendor",  runeword_id: 46 , rune_id: 5)
+CombinationRune.create(word_name: "Splendor", runeword_id: 46, rune_id: 17)
+
+Runeword.create(name: "Stone", category: 2 , runeAmount: 4, item_type: '4 Socket Body Armor', order: 'Shael + Um + Pul + Lum', stats: "+60% Faster Hit Recovery
++250-290% Enhanced Defense (varies)
++300 Defense Vs. Missile
++16 To Strength
++16 To Vitality
++10 To Energy
+All Resistances +15
+Level 16 Molten Boulder (80 Charges)
+Level 16 Clay Golem (16 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/d/d4/Stone.png')
+CombinationRune.create(word_name: "Stone",  runeword_id: 47, rune_id: 13)
+CombinationRune.create(word_name: "Stone", runeword_id: 47, rune_id: 22)
+CombinationRune.create(word_name: "Stone",  runeword_id: 47, rune_id: 21)
+CombinationRune.create(word_name: "Stone", runeword_id: 47, rune_id: 17)
+
+Runeword.create(name: "Wind", category: 1 , runeAmount: 2, item_type: '2 Socket Melee Weapons', order: 'Sur + El', stats: "10% Chance To Cast Level 9 Tornado On Striking
++20% Faster Run/Walk
++40% Increased Attack Speed
++15% Faster Hit Recovery
++120-160% Enhanced Damage (varies)
+-50% Target Defense
++50 To Attack Rating
+Hit Blinds Target
++1 To Light Radius
+Level 13 Twister (127 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/b/bf/Wind.png')
+CombinationRune.create(word_name: "Wind",  runeword_id: 48, rune_id: 29)
+CombinationRune.create(word_name: "Wind", runeword_id: 48, rune_id: 1)
+
+Runeword.create(name: "Brand", category:  1, runeAmount: 4, item_type: '4 Socket Missile Weapons', order: 'Jah + Lo + Mal + Gul', stats: "35% Chance To Cast Level 14 Amplify Damage When Struck
+100% Chance To Cast Level 18 Bone Spear On Striking
++260-340% Enhanced Damage (varies)
+Ignore Target's Defense
+20% Bonus to Attack Rating
++280-330% Damage To Demons (varies)
+20% Deadly Strike
+Prevent Monster Heal
+Knockback
+Fires Explosive Arrows or Bolts (15)",  image_url: 'https://diablo2.diablowiki.net/images/6/62/Brand.png')
+CombinationRune.create(word_name: "Brand",  runeword_id: 49, rune_id: 31)
+CombinationRune.create(word_name: "Brand", runeword_id: 49, rune_id: 28)
+CombinationRune.create(word_name: "Brand",  runeword_id: 49, rune_id: 23)
+CombinationRune.create(word_name: "Brand", runeword_id: 49, rune_id: 25)
+
+
+Runeword.create(name: "Death", category:  1, runeAmount: 5, item_type: '5 Socket Swords/Axes', order: 'Hel + El + Vex + Ort + Gul', stats: "100% Chance To Cast Level 44 Chain Lightning When You Die
+25% Chance To Cast Level 18 Glacial Spike On Attack
+Indestructible
++300-385% Enhanced Damage (varies)
+20% Bonus To Attack Rating
++50 To Attack Rating
+Adds 1-50 Lightning Damage
+7% Mana Stolen Per Hit
+50% Chance of Crushing Blow
++(0.5 per Character Level) 0.5-49.5% Deadly Strike (Based on Character Level)
++1 To Light Radius
+Level 22 Blood Golem (15 Charges)
+Requirements -20%",  image_url: 'https://diablo2.diablowiki.net/images/c/c3/Death.png')
+CombinationRune.create(word_name: "Death",  runeword_id: 50, rune_id: 15)
+CombinationRune.create(word_name: "Death", runeword_id: 50, rune_id: 1)
+CombinationRune.create(word_name: "Death",  runeword_id: 50, rune_id: 26)
+CombinationRune.create(word_name: "Death", runeword_id: 50, rune_id: 9)
+CombinationRune.create(word_name: "Death",  runeword_id: 50, rune_id: 25)
+
+Runeword.create(name: "Destruction", category: 1 , runeAmount: 5, item_type: '5 Socket Polearms/Swords', order: 'Vex + Lo + Ber + Jah + Ko', stats: "23% Chance To Cast Level 12 Volcano On Striking
+5% Chance To Cast Level 23 Molten Boulder On Striking
+100% Chance To Cast level 45 Meteor When You Die
+15% Chance To Cast Level 22 Nova On Attack
++350% Enhanced Damage
+Ignore Target's Defense
+Adds 100-180 Magic Damage
+7% Mana Stolen Per Hit
+20% Chance Of Crushing Blow
+20% Deadly Strike
+Prevent Monster Heal
++10 To Dexterity",  image_url: 'https://diablo2.diablowiki.net/images/6/6b/Destruction.png')
+CombinationRune.create(word_name: "Destruction",  runeword_id: 51, rune_id: 26)
+CombinationRune.create(word_name: "Destruction", runeword_id: 51, rune_id: 28)
+CombinationRune.create(word_name: "Destruction",  runeword_id: 51, rune_id: 30)
+CombinationRune.create(word_name: "Destruction", runeword_id: 51, rune_id: 31)
+CombinationRune.create(word_name: "Destruction",  runeword_id: 51, rune_id: 18)
+
+Runeword.create(name: "Dragon (armor)", category: 2, runeAmount: 3, item_type: '3 Socket Body Armor/Shields', order: 'Sur + Lo + Sol', stats: "20% Chance to Cast Level 18 Venom When Struck
+12% Chance To Cast Level 15 Hydra On Striking
+Level 14 Holy Fire Aura When Equipped
++360 Defense
++230 Defense Vs. Missile
++3-5 To All Attributes (varies)
++0.375-37.125 To Strength (Based on Character Level)
+Increase Maximum Mana 5% (Armor Only)
++50 To Mana (Shields Only)
++5% To Maximum Lightning Resist
+Damage Reduced by 7",  image_url: 'https://diablo2.diablowiki.net/images/1/1f/Dragonarmor.png')
+CombinationRune.create(word_name: "Dragon (armor)",  runeword_id: 52, rune_id: 29)
+CombinationRune.create(word_name: "Dragon (armor)", runeword_id: 52, rune_id: 28)
+CombinationRune.create(word_name: "Dragon (armor)",  runeword_id: 52, rune_id: 12)
+
+Runeword.create(name: "Dragon (shield)", category: 3, runeAmount: 3, item_type: '3 Socket Body Armor/Shields', order: 'Sur + Lo + Sol', stats: "20% Chance to Cast Level 18 Venom When Struck
+12% Chance To Cast Level 15 Hydra On Striking
+Level 14 Holy Fire Aura When Equipped
++360 Defense
++230 Defense Vs. Missile
++3-5 To All Attributes (varies)
++0.375-37.125 To Strength (Based on Character Level)
+Increase Maximum Mana 5% (Armor Only)
++50 To Mana (Shields Only)
++5% To Maximum Lightning Resist
+Damage Reduced by 7",  image_url: 'https://diablo2.diablowiki.net/images/7/72/Dragonshield.png')
+CombinationRune.create(word_name: "Dragon (shield)",  runeword_id: 53, rune_id: 29)
+CombinationRune.create(word_name: "Dragon (shield)", runeword_id: 53, rune_id: 28)
+CombinationRune.create(word_name: "Dragon (shield)",  runeword_id: 53, rune_id: 12)
+
+Runeword.create(name: "Dream (helmet)", category: 4 , runeAmount: 3 , item_type: '3 Socket Helms/Shields', order: 'Io + Jah + Pul', stats: "10% Chance To Cast Level 15 Confuse When Struck
+Level 15 Holy Shock Aura When Equipped
++20-30% Faster Hit Recovery (varies)
++30% Enhanced Defense
++150-220 Defense (varies)
++10 To Vitality
+Increase Maximum Life 5% (Helms Only)
++50 To Life (Shields Only)
++0.625-61.875 To Mana (Based On Character Level)
+All Resistances +5-20 (varies)
+12-25% Better Chance of Getting Magic Items (varies)",  image_url: 'https://diablo2.diablowiki.net/images/c/c3/Dreamheadgear.png')
+CombinationRune.create(word_name: "Dream (helmet)",  runeword_id: 54, rune_id: 16)
+CombinationRune.create(word_name: "Dream (helmet)", runeword_id: 54, rune_id: 31)
+CombinationRune.create(word_name: "Dream (helmet)",  runeword_id: 54, rune_id: 21)
+
+Runeword.create(name: "Dream (shield)", category: 3 , runeAmount: 3 , item_type: '3 Socket Helms/Shields', order: 'Io + Jah + Pul', stats: "10% Chance To Cast Level 15 Confuse When Struck
+Level 15 Holy Shock Aura When Equipped
++20-30% Faster Hit Recovery (varies)
++30% Enhanced Defense
++150-220 Defense (varies)
++10 To Vitality
+Increase Maximum Life 5% (Helms Only)
++50 To Life (Shields Only)
++0.625-61.875 To Mana (Based On Character Level)
+All Resistances +5-20 (varies)
+12-25% Better Chance of Getting Magic Items (varies)",  image_url: 'https://diablo2.diablowiki.net/images/4/47/Dreamshield.png')
+CombinationRune.create(word_name: "Dream (shield)",  runeword_id: 55, rune_id: 16)
+CombinationRune.create(word_name: "Dream (shield)", runeword_id: 55, rune_id: 31)
+CombinationRune.create(word_name: "Dream (shield)",  runeword_id: 55, rune_id: 21)
+
+Runeword.create(name: "Edge", category: 1 , runeAmount: 3, item_type: '3 Socket Missile Weapons', order: 'Tir + Tal + Amn', stats: "Level 15 Thorns Aura When Equipped
++35% Increased Attack Speed
++320-380% Damage To Demons (varies)
++280% Damage To Undead
++75 Poison Damage Over 5 Seconds
+7% Life Stolen Per Hit
+Prevent Monster Heal
++5-10 To All Attributes (varies)
++2 To Mana After Each Kill
+Reduces All Vendor Prices 15%",  image_url: 'https://diablo2.diablowiki.net/images/f/f9/Edge.png')
+CombinationRune.create(word_name: "Edge",  runeword_id: 56, rune_id: 3)
+CombinationRune.create(word_name: "Edge", runeword_id: 56, rune_id: 7)
+CombinationRune.create(word_name: "Edge",  runeword_id: 56, rune_id: 11)
+
+Runeword.create(name: "Faith", category: 1 , runeAmount: 4, item_type: '4 Socket Missile Weapons', order: 'Ohm + Jah + Lem + Eld', stats: "Level 12-15 Fanaticism Aura When Equipped (varies)
++1-2 To All Skills (varies)
++330% Enhanced Damage
+Ignore Target's Defense
+300% Bonus To Attack Rating
++75% Damage To Undead
++50 To Attack Rating Against Undead
++120 Fire Damage
+All Resistances +15
+10% Reanimate As: Returned
+75% Extra Gold From Monsters",  image_url: 'https://diablo2.diablowiki.net/images/e/e6/Faith.png')
+CombinationRune.create(word_name: "Faith",  runeword_id: 57, rune_id: 27)
+CombinationRune.create(word_name: "Faith", runeword_id: 57, rune_id: 31)
+CombinationRune.create(word_name: "Faith",  runeword_id: 57, rune_id: 20)
+CombinationRune.create(word_name: "Faith", runeword_id: 57, rune_id: 2)
+
+Runeword.create(name: "Fortitude (weapon)", category: 1 , runeAmount: 4 , item_type: '4 Socket Weapons/Body Armor', order: 'El + Sol + Dol + Lo', stats: "20% Chance To Cast Level 15 Chilling Armor when Struck
++25% Faster Cast Rate
++300% Enhanced Damage
++9 To Minimum Damage
++50 To Attack Rating
+20% Deadly Strike
+Hit Causes Monster To Flee 25%
++200% Enhanced Defense
++X To Life (Based on Character Level)*
+All Resistances +25-30 (varies)
+12% Damage Taken Goes To Mana
++1 To Light Radius",  image_url: 'https://diablo2.diablowiki.net/images/0/09/Fortitudeweapon.png')
+CombinationRune.create(word_name: "Fortitude (weapon)",  runeword_id: 58, rune_id: 1)
+CombinationRune.create(word_name: "Fortitude (weapon)", runeword_id: 58, rune_id: 12)
+CombinationRune.create(word_name: "Fortitude (weapon)",  runeword_id: 58, rune_id: 14)
+CombinationRune.create(word_name: "Fortitude (weapon)", runeword_id: 58, rune_id: 28)
+
+Runeword.create(name: "Fortitude (armor)", category: 2 , runeAmount: 4 , item_type: '4 Socket Weapons/Body Armor', order: 'El + Sol + Dol + Lo', stats: "20% Chance To Cast Level 15 Chilling Armor when Struck
++25% Faster Cast Rate
++300% Enhanced Damage
++200% Enhanced Defense
++15 Defense
++X To Life (Based on Character Level)*
+Replenish Life +7
++5% To Maximum Lightning Resist
+All Resistances +25-30 (varies)
+Damage Reduced By 7
+12% Damage Taken Goes To Mana
++1 To Light Radius",  image_url: 'https://diablo2.diablowiki.net/images/c/c9/Fortitudearmor.png')
+CombinationRune.create(word_name: "Fortitude (armor)",  runeword_id: 59, rune_id: 1)
+CombinationRune.create(word_name: "Fortitude (armor)", runeword_id: 59, rune_id: 12)
+CombinationRune.create(word_name: "Fortitude (armor)",  runeword_id: 59, rune_id: 14)
+CombinationRune.create(word_name: "Fortitude (armor)", runeword_id: 59, rune_id: 28)
+
+Runeword.create(name: "Grief", category: 1 , runeAmount: 5, item_type: '5 Socket Swords/Axes', order: 'Eth + Tir + Lo + Mal + Ral', stats: "35% Chance To Cast Level 15 Venom On Striking
++30-40% Increased Attack Speed (varies)
+Damage +340-400 (varies)
+Ignore Target's Defense
+-25% Target Defense
++(1.875 per character level) 1.875-185.625% Damage To Demons (Based on Character Level)
+Adds 5-30 Fire Damage
+-20-25% To Enemy Poison Resistance (varies)
+20% Deadly Strike
+Prevent Monster Heal
++2 To Mana After Each Kill
++10-15 Life After Each Kill (varies)",  image_url: 'https://diablo2.diablowiki.net/images/6/61/Grief.png')
+CombinationRune.create(word_name: "Grief",  runeword_id: 60, rune_id: 5)
+CombinationRune.create(word_name: "Grief", runeword_id: 60, rune_id: 3)
+CombinationRune.create(word_name: "Grief",  runeword_id: 60, rune_id: 28)
+CombinationRune.create(word_name: "Grief", runeword_id: 60, rune_id: 23)
+CombinationRune.create(word_name: "Grief",  runeword_id: 60, rune_id: 8)
+
+Runeword.create(name: "Harmony", category: 1 , runeAmount: 4, item_type: '4 Socket Missile Weapons', order: 'Tir + Ith + Sol + Ko', stats: "Level 10 Vigor Aura When Equipped
++200-275% Enhanced Damage (varies)
++9 To Minimum Damage
++9 To Maximum Damage
+Adds 55-160 Lightning Damage
+Adds 55-160 Fire Damage
+Adds 55-160 Cold Damage
++2-6 To Valkyrie (varies)
++10 To Dexterity
+Regenerate Mana 20%
++2 To Mana After Each Kill
++2 To Light Radius
+Level 20 Revive (25 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/9/98/Harmony.png')
+CombinationRune.create(word_name: "Harmony",  runeword_id: 61, rune_id: 3)
+CombinationRune.create(word_name: "Harmony", runeword_id: 61, rune_id: 6)
+CombinationRune.create(word_name: "Harmony",  runeword_id: 61, rune_id: 12)
+CombinationRune.create(word_name: "Harmony", runeword_id: 61, rune_id: 18)
+
+Runeword.create(name: "Ice", category: 1  , runeAmount: 4 , item_type: '4 Socket Missile Weapons', order: 'Amn + Shael + Jah + Lo', stats: "100% Chance To Cast Level 40 Blizzard When You Level-up
+25% Chance To Cast Level 22 Frost Nova On Striking
+Level 18 Holy Freeze Aura When Equipped
++20% Increased Attack Speed
++140-210% Enhanced Damage (varies)
+Ignore Target's Defense
++25-30% To Cold Skill Damage (varies)
+-20% To Enemy Cold Resistance
+7% Life Stolen Per Hit
+20% Deadly Strike
+3.125-309.375 Extra Gold From Monsters (Based on Character Level)",  image_url: 'https://diablo2.diablowiki.net/images/7/77/Ice.png')
+CombinationRune.create(word_name: "Ice",  runeword_id: 62, rune_id: 11)
+CombinationRune.create(word_name: "Ice", runeword_id: 62, rune_id: 13)
+CombinationRune.create(word_name: "Ice",  runeword_id: 62, rune_id: 31)
+CombinationRune.create(word_name: "Ice", runeword_id: 62, rune_id: 28)
+
+Runeword.create(name: "Infinity", category: 1 , runeAmount: 4 , item_type: '4 Socket Polearms', order: 'Ber + Mal + Ber + Ist', stats: "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy
+Level 12 Conviction Aura When Equipped
++35% Faster Run/Walk
++255-325% Enhanced Damage (varies)
+-(45-55)% To Enemy Lightning Resistance (varies)
+40% Chance of Crushing Blow
+Prevent Monster Heal
+0.5-49.5 To Vitality (Based on Character Level)
+30% Better Chance of Getting Magic Items
+Level 21 Cyclone Armor (30 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/e/e2/Infinity.png')
+CombinationRune.create(word_name: "Infinity",  runeword_id: 63, rune_id: 30)
+CombinationRune.create(word_name: "Infinity", runeword_id: 63, rune_id: 23)
+CombinationRune.create(word_name: "Infinity",  runeword_id: 63, rune_id: 24)
+
+Runeword.create(name: "Insight", category: 1 , runeAmount: 4, item_type: '4 Socket Polearms/Staves', order: 'Ral + Tir + Tal + Sol', stats: "Level 12-17 Meditation Aura When Equipped (varies)
++35% Faster Cast Rate
++200-260% Enhanced Damage (varies)
++9 To Minimum Damage
+180-250% Bonus to Attack Rating (varies)
+Adds 5-30 Fire Damage
++75 Poison Damage Over 5 Seconds
++1-6 To Critical Strike (varies)
++5 To All Attributes
++2 To Mana After Each Kill
+23% Better Chance of Getting Magic Items",  image_url: 'https://diablo2.diablowiki.net/images/5/5b/Insight.png')
+CombinationRune.create(word_name: "Insight",  runeword_id: 64, rune_id: 8)
+CombinationRune.create(word_name: "Insight", runeword_id: 64, rune_id: 3)
+CombinationRune.create(word_name: "Insight",  runeword_id: 64, rune_id: 7)
+CombinationRune.create(word_name: "Insight", runeword_id: 64, rune_id: 12)
+
+Runeword.create(name: "Last Wish", category: 1 , runeAmount: 6 , item_type: '6 Socket Swords/Hammers/Axes', order: 'Jah + Mal + Jah + Sur + Jah + Ber', stats: "6% Chance To Cast Level 11 Fade When Struck
+10% Chance To Cast Level 18 Life Tap On Striking
+20% Chance To Cast Level 20 Charged Bolt On Attack
+Level 17 Might Aura When Equipped
++330-375% Enhanced Damage (varies)
+Ignore Target's Defense
+60-70% Chance of Crushing Blow (varies)
+Prevent Monster Heal
+Hit Blinds Target
++(0.5 per character level) 0.5-49.5% Chance of Getting Magic Items (Based on Character Level)",  image_url: 'https://diablo2.diablowiki.net/images/c/cb/Lastwish.png')
+CombinationRune.create(word_name: "Last Wish",  runeword_id: 65, rune_id: 31)
+CombinationRune.create(word_name: "Last Wish", runeword_id: 65, rune_id: 23)
+CombinationRune.create(word_name: "Last Wish",  runeword_id: 65, rune_id: 29)
+CombinationRune.create(word_name: "Last Wish", runeword_id: 65, rune_id: 30)
+
+Runeword.create(name: "Lawbringer", category: 1 , runeAmount: 3 , item_type: '3 Socket Swords/Hammers/Scepters', order: 'Amn + Lem + Ko', stats: "20% Chance To Cast Level 15 Decrepify On Striking
+Level 16-18 Sanctuary Aura When Equipped (varies)
+-50% Target Defense
+Adds 150-210 Fire Damage
+Adds 130-180 Cold Damage
+7% Life Stolen Per Hit
+Slain Monsters Rest In Peace
++200-250 Defense Vs. Missile (varies)
++10 To Dexterity
+75% Extra Gold From Monsters",  image_url: 'https://diablo2.diablowiki.net/images/8/8a/Lawbringer.png')
+CombinationRune.create(word_name: "Lawbringer",  runeword_id: 66, rune_id: 11)
+CombinationRune.create(word_name: "Lawbringer", runeword_id: 66, rune_id: 20)
+CombinationRune.create(word_name: "Lawbringer",  runeword_id: 66, rune_id: 18)
+
+Runeword.create(name: "Oath", category: 1, runeAmount: 4, item_type: '4 Socket Swords/Axes/Maces', order: 'Shael + Pul + Mal + Lum', stats: "30% Chance To Cast Level 20 Bone Spirit On Striking
+Indestructible
++50% Increased Attack Speed
++210-340% Enhanced Damage (varies)
++75% Damage To Demons
++100 To Attack Rating Against Demons
+Prevent Monster Heal
++10 To Energy
++10-15 Magic Absorb (varies)
+Level 16 Heart Of Wolverine (20 Charges)
+Level 17 Iron Golem (14 Charges)",  image_url: 'https://diablo2.diablowiki.net/images/a/a1/Oath.png')
+CombinationRune.create(word_name: "Oath",  runeword_id: 67, rune_id: 13)
+CombinationRune.create(word_name: "Oath", runeword_id: 67, rune_id: 21)
+CombinationRune.create(word_name: "Oath",  runeword_id: 67, rune_id: 23)
+CombinationRune.create(word_name: "Oath", runeword_id: 67, rune_id: 17)
+
+Runeword.create(name: "Obedience", category: 1 , runeAmount: 5, item_type: '5 Socket Polearms', order: 'Hel + Ko + Thul + Eth + Fal', stats: "30% Chance To Cast Level 21 Enchant When You Kill An Enemy
+40% Faster Hit Recovery
++370% Enhanced Damage
+-25% Target Defense
+Adds 3-14 Cold Damage 3 Second Duration (Normal)
+-25% To Enemy Fire Resistance
+40% Chance of Crushing Blow
++200-300 Defense (varies)
++10 To Strength
++10 To Dexterity
+All Resistances +20-30 (varies)
+Requirements -20%",  image_url: 'https://diablo2.diablowiki.net/images/6/6b/Obedience.png')
+CombinationRune.create(word_name: "Obedience",  runeword_id: 68, rune_id: 15)
+CombinationRune.create(word_name: "Obedience", runeword_id: 68, rune_id: 18)
+CombinationRune.create(word_name: "Obedience",  runeword_id: 68, rune_id: 10)
+CombinationRune.create(word_name: "Obedience", runeword_id: 68, rune_id: 5)
+CombinationRune.create(word_name: "Obedience",  runeword_id: 68, rune_id: 19)
+
+Runeword.create(name: "Phoenix (weapon)", category: 1, runeAmount: 4, item_type: '4 Socket Weapons/Shields', order: 'Vex + Vex + Lo + Jah', stats: "100% Chance To Cast level 40 Blaze When You Level-up
+40% Chance To Cast Level 22 Firestorm On Striking
+Level 10-15 Redemption Aura When Equipped (varies)
++350-400% Enhanced Damage (varies)
+Ignores Target's Defense
+14% Mana Stolen Per Hit
+-28% To Enemy Fire Resistance
+20% Deadly Strike
++350-400 Defense Vs. Missile (varies)
++15-21 Fire Absorb (varies)",  image_url: 'https://diablo2.diablowiki.net/images/0/0a/Phoenixweapon.png')
+CombinationRune.create(word_name: "Phoenix (weapon)",  runeword_id: 69, rune_id: 26)
+CombinationRune.create(word_name: "Phoenix (weapon)", runeword_id: 69, rune_id: 28)
+CombinationRune.create(word_name: "Phoenix (weapon)",  runeword_id: 69, rune_id: 31)
+
+Runeword.create(name: "Phoenix (armor)", category: 3, runeAmount: 4, item_type: '4 Socket Weapons/Shields', order: 'Vex + Vex + Lo + Jah', stats: "100% Chance To Cast level 40 Blaze When You Level-up
+40% Chance To Cast Level 22 Firestorm On Striking
+Level 10-15 Redemption Aura When Equipped (varies)
++350-400 Defense Vs. Missile (varies)
++350-400% Enhanced Damage (varies)
+-28% To Enemy Fire Resistance
++50 To Life
++5% To Maximum Lightning Resist
++10% To Maximum Fire Resist
++15-21 Fire Absorb (varies)",  image_url: 'https://diablo2.diablowiki.net/images/4/49/Phoenixshield.png')
+CombinationRune.create(word_name: "Phoenix (armor)",  runeword_id: 70, rune_id: 26)
+CombinationRune.create(word_name: "Phoenix (armor)", runeword_id: 70, rune_id: 28)
+CombinationRune.create(word_name: "Phoenix (armor)",  runeword_id: 70, rune_id: 31)
+
+Runeword.create(name: "Pride", category: 1, runeAmount: 4, item_type: '4 Socket Polearms', order: 'Cham + Sur + Io + Lo', stats: "25% Chance To Cast Level 17 Fire Wall When Struck
+Level 16-20 Concentration Aura When Equipped (varies)
+260-300% Bonus To Attack Rating (varies)
++1-99% Damage To Demons (Based on Character Level)
+Adds 50-280 Lightning Damage
+20% Deadly Strike
+Hit Blinds Target
+Freezes Target +3
++10 To Vitality
+Replenish Life +8
+1.875-185.625% Extra Gold From Monsters (Based on Character Level)",  image_url: 'https://diablo2.diablowiki.net/images/b/b3/Pride.png')
+CombinationRune.create(word_name: "Pride",  runeword_id: 71, rune_id: 32)
+CombinationRune.create(word_name: "Pride", runeword_id: 71, rune_id: 29)
+CombinationRune.create(word_name: "Pride",  runeword_id: 71, rune_id: 16)
+CombinationRune.create(word_name: "Pride", runeword_id: 71, rune_id: 28)
+
+Runeword.create(name: "Rift", category: 1 , runeAmount: 4, item_type: '4 Socket Polearms/Scepters', order: 'Hel + Ko + Lem + Gul', stats: "20% Chance To Cast Level 16 Tornado On Striking
+16% Chance To Cast Level 21 Frozen Orb On Attack
+20% Bonus To Attack Rating
+Adds 160-250 Magic Damage
+Adds 60-180 Fire Damage
++5-10 To All Stats (varies)
++10 To Dexterity
+38% Damage Taken Goes To Mana
+75% Extra Gold From Monsters
+Level 15 Iron Maiden (40 Charges)
+Requirements -20%",  image_url: 'https://diablo2.diablowiki.net/images/3/36/Rift.png')
+CombinationRune.create(word_name: "Rift",  runeword_id: 72, rune_id: 15)
+CombinationRune.create(word_name: "Rift", runeword_id: 72, rune_id: 18)
+CombinationRune.create(word_name: "Rift",  runeword_id: 72, rune_id: 20)
+CombinationRune.create(word_name: "Rift", runeword_id: 72, rune_id: 25)
+
+Runeword.create(name: "Spirit (weapon)", category: 1 , runeAmount: 4, item_type: '4 Socket Swords/Shields', order: 'Tal + Thul + Ort + Amn', stats: "+2 To All Skills
++25-35% Faster Cast Rate (varies)
++55% Faster Hit Recovery
+Adds 1-50 Lightning Damage
+Adds 3-14 Cold Damage 3 Second Duration (Normal)
++75 Poison Damage Over 5 Seconds
+7% Life Stolen Per Hit
++250 Defense Vs. Missile
++22 To Vitality
++89-112 To Mana (varies)
++3-8 Magic Absorb (varies)",  image_url: 'https://diablo2.diablowiki.net/images/d/d5/Spiritsword.png')
+CombinationRune.create(word_name: "Spirit (weapon)",  runeword_id: 73, rune_id: 7)
+CombinationRune.create(word_name: "Spirit (weapon)", runeword_id: 73, rune_id: 10)
+CombinationRune.create(word_name: "Spirit (weapon)",  runeword_id: 73, rune_id: 9)
+CombinationRune.create(word_name: "Spirit (weapon)", runeword_id: 73, rune_id: 11)
+
+Runeword.create(name: "Spirit (shield)", category: 3 , runeAmount: 4, item_type: '4 Socket Swords/Shields', order: 'Tal + Thul + Ort + Amn', stats: "+2 To All Skills
++25-35% Faster Cast Rate (varies)
++55% Faster Hit Recovery
++250 Defense Vs. Missile
++22 To Vitality
++89-112 To Mana (varies)
+Cold Resist +35%
+Lightning Resist +35%
+Poison Resist +35%
++3-8 Magic Absorb (varies)
+Attacker Takes Damage of 14",  image_url: 'http://i.imgur.com/n6KeDZW.png')
+CombinationRune.create(word_name: "Spirit (shield)",  runeword_id: 74, rune_id: 7)
+CombinationRune.create(word_name: "Spirit (shield)", runeword_id: 74, rune_id: 10)
+CombinationRune.create(word_name: "Spirit (shield)",  runeword_id: 74, rune_id: 9)
+CombinationRune.create(word_name: "Spirit (shield)", runeword_id: 74, rune_id: 11)
+
+Runeword.create(name: "Voice of Reason", category: 1, runeAmount: 4, item_type: '4 Socket Swords/Maces', order: 'Lem + Ko + El + Eld', stats: "15% Chance To Cast Level 13 Frozen Orb On Striking
+18% Chance To Cast Level 20 Ice Blast On Striking
++50 To Attack Rating
++220-350% Damage To Demons
++355-375% Damage To Undead (varies)
++50 To Attack Rating Against Undead
+Adds 100-220 Cold Damage
+-24% To Enemy Cold Resistance
++10 To Dexterity
+Cannot Be Frozen
+75% Extra Gold From Monsters
++1 To Light Radius",  image_url: 'https://diablo2.diablowiki.net/images/c/c2/Voiceofreason.png')
+CombinationRune.create(word_name: "Voice of Reason",  runeword_id: 75, rune_id: 20)
+CombinationRune.create(word_name: "Voice of Reason", runeword_id: 75, rune_id: 18)
+CombinationRune.create(word_name: "Voice of Reason",  runeword_id: 75, rune_id: 1)
+CombinationRune.create(word_name: "Voice of Reason", runeword_id: 75, rune_id: 2)
+
+Runeword.create(name: "Wrath", category: 1 , runeAmount: 4, item_type: '4 Socket Missile Weapons', order: 'Pul + Lum + Ber + Mal', stats: "30% Chance To Cast Level 1 Decrepify On Striking
+5% Chance To Cast Level 10 Life Tap On Striking
++375% Damage To Demons
++100 To Attack Rating Against Demons
++250-300% Damage To Undead (varies)
+Adds 85-120 Magic Damage
+Adds 41-240 Lightning Damage
+20% Chance of Crushing Blow
+Prevent Monster Heal
++10 To Energy
+Cannot Be Frozen",  image_url: 'https://diablo2.diablowiki.net/images/3/3f/Wrath.png')
+CombinationRune.create(word_name: "Wrath",  runeword_id: 76, rune_id: 21)
+CombinationRune.create(word_name: "Wrath", runeword_id: 76, rune_id: 17)
+CombinationRune.create(word_name: "Wrath",  runeword_id: 76, rune_id: 30)
+CombinationRune.create(word_name: "Wrath", runeword_id: 76, rune_id: 23)
+
+Runeword.create(name: "Bone", category: 2 , runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Sol + Um + Um', stats: "15% Chance To Cast level 10 Bone Armor When Struck
+15% Chance To Cast level 10 Bone Spear On Striking
++2 To Necromancer Skill Levels
++100-150 To Mana (varies)
+All Resistances +30
+Damage Reduced By 7",  image_url: 'https://diablo2.diablowiki.net/images/2/2c/Bone.png')
+CombinationRune.create(word_name: "Bone",  runeword_id: 77, rune_id: 12)
+CombinationRune.create(word_name: "Bone", runeword_id: 77, rune_id: 22)
+
+Runeword.create(name: "Enlightenment", category: 2, runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Pul + Ral + Sol', stats: "5% Chance To Cast Level 15 Blaze When Struck
+5% Chance To Cast level 15 Fire Ball On Striking
++2 To Sorceress Skill Levels
++1 To Warmth
++30% Enhanced Defense
+Fire Resist +30%
+Damage Reduced By 7",  image_url: 'https://diablo2.diablowiki.net/images/f/fa/Enlightenment.png')
+CombinationRune.create(word_name: "Enlightenment",  runeword_id: 78, rune_id: 21)
+CombinationRune.create(word_name: "Enlightenment", runeword_id: 78, rune_id: 8)
+CombinationRune.create(word_name: "Enlightenment",  runeword_id: 78, rune_id: 12)
+
+Runeword.create(name: "Myth", category: 2 , runeAmount: 3 , item_type: '3 Socket Body Armor', order: 'Hel + Amn + Nef', stats: "3% Chance To Cast Level 1 Howl When Struck
+10% Chance To Cast Level 1 Taunt On Striking
++2 To Barbarian Skill Levels
++30 Defense Vs. Missile
+Replenish Life +10
+Attacker Takes Damage of 14
+Requirements -15%",  image_url: 'https://diablo2.diablowiki.net/images/a/ae/Myth.png')
+CombinationRune.create(word_name: "Myth",  runeword_id: 79, rune_id: 15)
+CombinationRune.create(word_name: "Myth", runeword_id: 79, rune_id: 11)
+CombinationRune.create(word_name: "Myth",  runeword_id: 79, rune_id: 4)
+
+Runeword.create(name: "Peace", category: 2 , runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Shael + Thul + Amn', stats: "	4% Chance To Cast Level 5 Slow Missiles When Struck
+2% Chance To Cast level 15 Valkyrie On Striking
++2 To Amazon Skill Levels
++20% Faster Hit Recovery
++2 To Critical Strike
+Cold Resist +30%
+Attacker Takes Damage of 14",  image_url: 'https://diablo2.diablowiki.net/images/3/37/Peace.png')
+CombinationRune.create(word_name: "Peace",  runeword_id: 80, rune_id: 13)
+CombinationRune.create(word_name: "Peace", runeword_id: 80, rune_id: 10)
+CombinationRune.create(word_name: "Peace",  runeword_id: 80, rune_id: 11)
+
+Runeword.create(name: "Principle", category: 2, runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Ral + Gul + Eld', stats: "100% Chance To Cast Level 5 Holy Bolt On Striking
++2 To Paladin Skill Levels
++50% Damage to Undead
++100-150 To Life (varies)
+15% Slower Stamina Drain
++5% To Maximum Poison Resist
+Fire Resist +30%",  image_url: 'https://diablo2.diablowiki.net/images/7/7d/Principle.png')
+CombinationRune.create(word_name: "Principle",  runeword_id: 81, rune_id: 8)
+CombinationRune.create(word_name: "Principle", runeword_id: 81, rune_id: 25)
+CombinationRune.create(word_name: "Principle",  runeword_id: 81, rune_id: 2)
+
+Runeword.create(name: "Rain", category: 2 , runeAmount: 3 , item_type: '3 Socket Body Armor', order: 'Ort + Mal + Ith', stats: "5% Chance To Cast Level 15 Cyclone Armor When Struck
+5% Chance To Cast Level 15 Twister On Striking
++2 To Druid Skills
++100-150 To Mana (varies)
+Lightning Resist +30%
+Magic Damage Reduced By 7
+15% Damage Taken Goes to Mana",  image_url: 'https://diablo2.diablowiki.net/images/1/1d/Rain.png')
+CombinationRune.create(word_name: "Rain",  runeword_id: 82, rune_id: 9)
+CombinationRune.create(word_name: "Rain", runeword_id: 82, rune_id: 23)
+CombinationRune.create(word_name: "Rain",  runeword_id: 82, rune_id: 6)
+
+Runeword.create(name: "Treachery", category: 2, runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Shael + Thul + Lem', stats: "5% Chance To Cast Level 15 Fade When Struck
+25% Chance To Cast level 15 Venom On Striking
++2 To Assassin Skills
++45% Increased Attack Speed
++20% Faster Hit Recovery
+Cold Resist +30%
+50% Extra Gold From Monsters",  image_url: 'https://diablo2.diablowiki.net/images/0/02/Treachery.png')
+CombinationRune.create(word_name: "Treachery",  runeword_id: 83, rune_id: 13)
+CombinationRune.create(word_name: "Treachery", runeword_id: 83, rune_id: 10)
+CombinationRune.create(word_name: "Treachery",  runeword_id: 83, rune_id: 20)
+
+# Runeword.create(name: "", category:  , runeAmount: , item_type: '', order: '', stats: "",  image_url: '')
+# CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
+# CombinationRune.create(word_name: "", runeword_id: , rune_id: )
+# CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
+# CombinationRune.create(word_name: "", runeword_id: , rune_id: )
+# CombinationRune.create(word_name: "",  runeword_id: , rune_id: )
+# CombinationRune.create(word_name: "", runeword_id: , rune_id: )
 
 
 
