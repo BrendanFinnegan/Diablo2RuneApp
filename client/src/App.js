@@ -80,8 +80,9 @@ function App() {
 
 direction="row"
 justifyContent="flex-start"
+style={{fontFamily:'Almendra'}}
 >
-    <Grid item xs={2} >
+    <Grid item xs={2} style={{ backgroundImage:'url(https://www.dsogaming.com/wp-content/uploads/2016/04/Diablo-II-logo.jpg)', backgroundAttachment: 'fixed' }} >
       <NavBar />
     </Grid>
     

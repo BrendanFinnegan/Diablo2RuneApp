@@ -9,10 +9,17 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import { makeStyles } from '@material-ui/core/styles';
-
+import TextField from '@material-ui/core/TextField';
 function AllRuneWords () {
 
     const [allRuneWords, setAllRuneWords] = useState([])
+
+    const [filterInput, setFilterInput] = useState("")
+    function handleSearch(e) {
+        setFilterInput(e.target.value)
+    }
+
+    let filterCards = allRuneWords.filter(runeword => runeword.name.toLowerCase().includes(filterInput.toLowerCase()) || runeword.stats.toLowerCase().includes(filterInput.toLowerCase()))
 
     useEffect(() => {
         fetch(`/allrunewords`)
@@ -47,7 +54,7 @@ function AllRuneWords () {
               },
               heading: {
                 color: 'black',
-                fontFamily: 'Reem Kufi',  
+                fontFamily:'Almendra',  
                 fontWeight: 'bold', 
                 border: 'none', 
                 shadow: 'none',
@@ -57,7 +64,7 @@ function AllRuneWords () {
             }));
             const classes = useStyles();
 
-        let weaponWordCards = allRuneWords.map( runeword => {
+        let weaponWordCards = filterCards.map( runeword => {
             
         
             if (runeword.category === 1) return <Grid item key={runeword.id}>
@@ -76,7 +83,7 @@ function AllRuneWords () {
         })
 
 
-        let armorWordCards = allRuneWords.map( runeword => {
+        let armorWordCards = filterCards.map( runeword => {
             
         
             if (runeword.category === 2)  return <Grid item key={runeword.id}>
@@ -96,7 +103,7 @@ function AllRuneWords () {
 
 
 
-        let helmetWordCards = allRuneWords.map( runeword => {
+        let helmetWordCards = filterCards.map( runeword => {
             
         
             if (runeword.category === 4)  return <Grid item key={runeword.id}>
@@ -114,7 +121,7 @@ function AllRuneWords () {
         
         })
 
-        let shieldWordCards = allRuneWords.map( runeword => {
+        let shieldWordCards = filterCards.map( runeword => {
             
         
             if (runeword.category === 3)  return <Grid item key={runeword.id}>
@@ -134,14 +141,30 @@ function AllRuneWords () {
 
     return (
         <>
-        <h2>All Rune Words</h2>
-        <p>Click any word to expand for more details</p>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <Grid container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center">
+      <Grid item xs={12}>
+        
+      <h2>All Rune Words</h2>
+      </Grid>
+              <Grid item xs={5}></Grid>
+            <Grid item xs={2} style={{paddingBottom: '25px'}}>
+                <p>Search by Word Name or Attribute Type</p>
+            <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search" value={filterInput} onChange={handleSearch} />
+            </Grid>
+            <Grid item xs={2}></Grid>
+            <Grid item xs={2}>
+              </Grid>
+              <Grid item xs={2}></Grid>
+
+        </Grid>
+  
+        
         <br/>
 
+        <p>Click any word to expand for more details</p>
         <br/>
         <h2>Weapons</h2>
         {weaponWordCards}

@@ -41,7 +41,7 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
           },
           heading: {
             color: 'black',
-            fontFamily: 'Reem Kufi',  
+            fontFamily:'Almendra',  
             fontWeight: 'bold', 
             border: 'none', 
             shadow: 'none',
@@ -108,7 +108,7 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
               
               <Dialog 
                 open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-                <DialogTitle style={{fontFamily: 'Reem Kufi'}} id="form-dialog-title">New Rune Details</DialogTitle>
+                <DialogTitle style={{fontFamily:'Almendra'}} id="form-dialog-title">New Rune Details</DialogTitle>
                 <NewRuneForm handleClose={handleClose} userRunes={userRunes} setUserRunes={setUserRunes} currentUser={currentUser} allRunes={allRunes}/>
                   </Dialog>
     

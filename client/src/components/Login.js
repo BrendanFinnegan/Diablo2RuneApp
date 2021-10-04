@@ -62,7 +62,7 @@ function Login({setCurrentUser}){
           },
           heading: {
             color: 'black',
-            fontFamily: 'Reem Kufi',  
+            fontFamily:'Almendra',  
             fontWeight: 'bold', 
             border: 'none', 
             shadow: 'none',
@@ -82,12 +82,12 @@ function Login({setCurrentUser}){
   direction="row"
   justifyContent="flex-start">
       <Grid item xs={12}>
-        <h2 style={{margin: 'auto', align: 'center', fontFamily: 'Reem Kufi', color: 'black' }}> Login </h2>
+        <h2 style={{margin: 'auto', align: 'center', fontFamily:'Almendra', color: 'black' }}> Login </h2>
         <br/>
         </Grid>
         
         <Grid item xs={12}>
-        <Form onSubmit={handleSubmit} style={{fontFamily: 'Reem Kufi', color: 'black'}}>
+        <Form onSubmit={handleSubmit} style={{fontFamily:'Almendra', color: 'black'}}>
       
      
             <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Email" value={email} onChange={(e) => {

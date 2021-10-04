@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Almendra', 'serif', 'Regular 400','Goldman', 'cursive','sans-serif', 'Reem Kufi']
+  }
+});
+
 
 ReactDOM.render(
 <Router>
