@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid'
 import MyRuneWords from './components/MyRuneWords';
 import MyRunes from './components/MyRunes';
 import AllRuneWords from './components/AllRuneWords';
-
+import SignUp from './components/SignUp';
 function App() {
 
   const [currentUser, setCurrentUser] = useState([])
@@ -102,6 +102,10 @@ justifyContent="flex-start"
 
         <Route exact path="/myrunewords">
           <MyRuneWords userWords={myRuneWords} currentUser={currentUser}/>
+        </Route>
+
+        <Route exact path="/signup">
+          <SignUp setCurrentUser={setCurrentUser}/>
         </Route>
 
 

@@ -216,9 +216,9 @@ Adds 3-14 Cold Damage - 3 Second Duration
 +100 To Attack Rating Against Demons
 +100 To Attack Rating Against Undead
 7% Life Stolen Per Hit",  image_url: 'https://diablo2.diablowiki.net/images/7/78/Kingsgrace.png')
-CombinationRune.create(word_name: "King's Grace",  runeword_id: 8, rune_id: 11)
-CombinationRune.create(word_name: "King's Grace", runeword_id: 8 , rune_id: 8)
-CombinationRune.create(word_name: "King's Grace",  runeword_id: 8 , rune_id: 10)
+CombinationRune.create(word_name: "King's Grace",  runeword_id: 9, rune_id: 11)
+CombinationRune.create(word_name: "King's Grace", runeword_id: 9 , rune_id: 8)
+CombinationRune.create(word_name: "King's Grace",  runeword_id: 9 , rune_id: 10)
 
 Runeword.create(name: "Leaf", category: 1 , runeAmount: 2 , item_type: '2 Socket Staves* (Not Orbs)', order: 'Tir + Ral', stats: "Adds 5-30 Fire Damage
 +3 To Fire Skills
@@ -228,8 +228,8 @@ Runeword.create(name: "Leaf", category: 1 , runeAmount: 2 , item_type: '2 Socket
 +2 To Mana After Each Kill
 + (2 Per Character Level) +2-198 To Defense (Based On Character Level)
 Cold Resist +33%",  image_url: 'https://diablo2.diablowiki.net/images/d/da/Uber_leaf.jpg')
-CombinationRune.create(word_name: "Leaf",  runeword_id:9 , rune_id: 3)
-CombinationRune.create(word_name: "Leaf", runeword_id:9 , rune_id: 8)
+CombinationRune.create(word_name: "Leaf",  runeword_id:10 , rune_id: 3)
+CombinationRune.create(word_name: "Leaf", runeword_id:10 , rune_id: 8)
 
 Runeword.create(name: "Lionheart", category: 2 , runeAmount: 3, item_type: '3 Socket Body Armor', order: 'Hel + Lum + Fal', stats: "+20% Enhanced Damage
 Requirements -15%

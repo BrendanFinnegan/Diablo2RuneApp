@@ -14,7 +14,7 @@ function NewRuneForm ({handleClose, allRunes, userRunes, setUserRunes, currentUs
     const [errors, setErrors] = useState('')
     const [formInput, setFormInput] = useState(1)
     const [formNameInput, setFormNameInput] = useState('El')
-
+    const history = useHistory()
 console.log(allRunes)
     const useStyles = makeStyles((theme) => ({
         roots: {
@@ -66,8 +66,9 @@ console.log(allRunes)
         })
         const rune = await res.json()
         if (rune.id) {
-            // history.push('/myrunes')
+            
             setUserRunes([...userRunes, rune])
+            history.push('/myrunes')
         } 
         else {
             setErrors(rune)
