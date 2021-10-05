@@ -10,6 +10,8 @@ function NavBar({currentUser, setCurrentUser}){
         
     }
 
+    // console.log(currentUser)
+
     return(
         <>
         <Navbar  variant="dark" style={{  height: '100vh', textAlign: 'left', paddingTop: '20px'}}>
@@ -18,18 +20,19 @@ function NavBar({currentUser, setCurrentUser}){
                 <Nav className="me-auto">
                 <br/>
                 <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/">Home</Nav.Link>  <br/>
-          
-                   <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/myrunes">My Runes</Nav.Link>
+                <br/>
+                  {currentUser.id ? <> <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/myrunes">My Runes</Nav.Link>
                    <br/>
-
+                   <br/>
            
 
                    <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/myrunewords"  >My Rune Words</Nav.Link> <br/>
-
+                   <br/>
                    <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/allrunewords"  >All Rune Words</Nav.Link> <br/>
+                   <br/> 
+                </> : null }
 
-
-                   <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/login"  onClick={handleLogout}>Logout</Nav.Link>
+                {currentUser.id ? <> <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/login"  onClick={handleLogout}>Logout</Nav.Link> </> : null}
                     
 
 

@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get "/myrunewords/:id", to: "runewords#user_words"
   get "/getallrunes", to: "runes#index"
   post "/userrunes", to: "user_runes#create"
+  delete "/deleterune", to: "user_runes#delete_rune"
 
 
 end

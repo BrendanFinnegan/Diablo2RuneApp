@@ -17,14 +17,13 @@ import { Button } from "react-bootstrap"
 function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
  
     const [open, setOpen] = useState(false);
-
+// console.log(userRunes)
     const [filterInput, setFilterInput] = useState("")
-    
     function handleSearch(e) {
         setFilterInput(e.target.value)
     }
 
-    let filterCards = userRunes.filter(rune => rune.name.toLowerCase().includes(filterInput.toLowerCase()) || rune.stats.toLowerCase().includes(filterInput.toLowerCase()))
+    let filterCards = userRunes.filter(rune => rune.name.toLowerCase().includes(filterInput.toLowerCase()) || rune.weapon_stats.toLowerCase().includes(filterInput.toLowerCase()) || rune.armor_stats.toLowerCase().includes(filterInput.toLowerCase()))
 
     const useStyles = makeStyles((theme) => ({
         roots: {
@@ -61,14 +60,14 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
     let runeCards = filterCards.map( rune => {
          
 
-        return <Grid item key={rune.id}>
+        return <Grid item key={rune.rank}>
         <Accordion style={{ boxShadow: "none", paddingLeft: "20px" }}  >
     <AccordionSummary  className={classes.root} >
-    <Typography className={classes.heading} > {rune.name}, Rank: {rune.id}  </Typography>
+    <Typography className={classes.heading} > {rune.name}, Rank: {rune.rank}  </Typography>
     </AccordionSummary>
     <AccordionDetails>
           <>
-          <RuneCard id={rune.id} name={rune.name} weaponStats={rune.weapon_stats} armorStats={rune.armor_stats} rank={rune.id} image={rune.image_url} />
+          <RuneCard userId={currentUser.id} setUserRunes={setUserRunes} userRunes={userRunes} id={rune.id} name={rune.name} weaponStats={rune.weapon_stats} armorStats={rune.armor_stats} rank={rune.id} image={rune.image_url} />
           </>
         </AccordionDetails>
         </Accordion>
@@ -77,9 +76,9 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
 
     })
 
-    function handleSearch () {
-        console.log('hello')
-    }
+    // function handleSearch () {
+    //     console.log('hello')
+    // }
 
 
     function handleClickOpen () {
@@ -99,8 +98,10 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
         <h2>My Runes</h2>
         </Grid>
 
-        <Grid item xs={5}></Grid>
-            <Grid item xs={2} style={{paddingBottom: '25px'}}>
+        <Grid item xs={4}></Grid>
+            <Grid item xs={4} style={{paddingBottom: '25px'}}>
+                <p>Search by Rune Name or Weapon/Armor Attributes</p>
+                <p>(for example, search "Tir" or "Knockback")</p>
             <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search" value={filterInput} onChange={handleSearch} />
             </Grid>
             <Grid item xs={2}></Grid>
