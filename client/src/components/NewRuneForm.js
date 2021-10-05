@@ -90,10 +90,15 @@ function NewRuneForm ({handleClose, allRunes, userRunes, setUserRunes, currentUs
         setFormInput(e.target.value)
         setFormNameInput(e.target.name)
     }
-    console.log(formInput)
+    // console.log(formInput)
 
-        let radioInputs = allRunes.map( rune => {
-            return  <FormControlLabel onClick={handleClick} name={rune.name} value={rune.id} control={<Radio />} label={rune.name} />
+    let myRuneIds = userRunes.map(rune => rune.id)
+
+        let filteredRadios = allRunes.filter( rune => !myRuneIds.includes(rune.id))
+        console.log(filteredRadios)
+
+        let radioInputs = filteredRadios.map( rune => {
+            return  <FormControlLabel key={rune.id} onClick={handleClick} name={rune.name} value={rune.id} control={<Radio />} label={rune.name} />
         })
 
     return(

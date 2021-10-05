@@ -28,7 +28,7 @@ function handleRemove (e) {
   justifyContent="flex-start"
   alignItems="flex-start">
       <Grid item xs={1}>
-                <h3 style={{marginTop: '35px'}}>rank: {rank}</h3>
+                <h3 style={{marginTop: '35px'}}>Rank: {rank}</h3>
           </Grid>
           <Grid item xs={4}>
                 <h3 style={{marginTop: '35px'}} >Weapon: {weaponStats}</h3>   
