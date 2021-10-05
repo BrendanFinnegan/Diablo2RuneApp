@@ -98,7 +98,7 @@ style={{fontFamily:'Almendra'}}
         </Route>
 
         <Route exact path="/myrunes">
-          <MyRunes allRunes={allRunes} userRunes={userRunes} currentUser={currentUser} setUserRunes={setUserRunes}/>
+          <MyRunes setMyRuneWords={setMyRuneWords} allRunes={allRunes} userRunes={userRunes} currentUser={currentUser} setUserRunes={setUserRunes}/>
         </Route>
 
         <Route exact path="/myrunewords">

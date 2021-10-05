@@ -128,9 +128,9 @@ Lightning Resist +48%
 Poison Resist +48%
 10% Damage Goes To Mana', order: 'Ral + Ort + Tal', image_url: 'https://diablo2.diablowiki.net/images/1/16/Ancientspledge.png')
 
+CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id: 7)
 CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id: 8)
-CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id: 9)
-CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id:10)
+CombinationRune.create(word_name: 'Ancients Pledge', runeword_id: 3, rune_id:9)
 
 Runeword.create(name: 'Stealth', category: 2 , item_type: '2 Socket Body Armor', runeAmount: 2, stats: '+25% Faster Run/Walk
 +25% Faster Casting Rate

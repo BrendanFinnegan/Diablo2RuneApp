@@ -14,7 +14,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import { Button } from "react-bootstrap"
 
-function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
+function MyRunes ({setMyRuneWords, userRunes, setUserRunes, allRunes, currentUser}) {
  
     const [open, setOpen] = useState(false);
 // console.log(userRunes)
@@ -88,6 +88,23 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
         setOpen(false);
       };
 
+      async function addBasics() {
+      
+
+        const res = await fetch(`addbasics/${currentUser.id}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json'},
+        
+        })
+
+        const ref = await fetch(`/getRunes/${currentUser.id}`)
+        .then(res => res.json())
+        .then(data =>{
+                if (data.length > 0){
+                  setUserRunes(data)
+                }})
+      }
+
     return (
         <>
         <Grid container
@@ -104,7 +121,11 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
                 <p>(for example, search "Tir" or "Knockback")</p>
             <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search" value={filterInput} onChange={handleSearch} />
             </Grid>
-            <Grid item xs={2}></Grid>
+            <Grid item xs={2}>
+            <Button  className="gameButton" onClick={addBasics}>
+                Add El - Thul to My Runes
+              </Button>
+            </Grid>
             <Grid item xs={2}>
 
             <Button  className="gameButton" onClick={handleClickOpen}>
