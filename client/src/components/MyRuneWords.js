@@ -156,9 +156,10 @@ function MyRuneWords ({userWords}) {
         
       <h2>My Rune Words</h2>
       </Grid>
-              <Grid item xs={5}></Grid>
-            <Grid item xs={2} style={{paddingBottom: '25px'}}>
+              <Grid item xs={4}></Grid>
+            <Grid item xs={4} style={{paddingBottom: '25px'}}>
                 <p>Search by Word Name or Attribute Type</p>
+                <p>(for example, search "Steel" or "Increased Attack Speed")</p>
             <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search" value={filterInput} onChange={handleSearch} />
             </Grid>
             <Grid item xs={2}></Grid>

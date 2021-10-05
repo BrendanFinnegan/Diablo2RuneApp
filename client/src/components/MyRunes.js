@@ -15,9 +15,16 @@ import TextField from '@material-ui/core/TextField';
 import { Button } from "react-bootstrap"
 
 function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
-    const [filterInput, setFilterInput] = useState("")
+ 
     const [open, setOpen] = useState(false);
 
+    const [filterInput, setFilterInput] = useState("")
+    
+    function handleSearch(e) {
+        setFilterInput(e.target.value)
+    }
+
+    let filterCards = userRunes.filter(rune => rune.name.toLowerCase().includes(filterInput.toLowerCase()) || rune.stats.toLowerCase().includes(filterInput.toLowerCase()))
 
     const useStyles = makeStyles((theme) => ({
         roots: {
@@ -51,7 +58,7 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
         }));
         const classes = useStyles();
 
-    let runeCards = userRunes.map( rune => {
+    let runeCards = filterCards.map( rune => {
          
 
         return <Grid item key={rune.id}>
@@ -94,7 +101,7 @@ function MyRunes ({userRunes, setUserRunes, allRunes, currentUser}) {
 
         <Grid item xs={5}></Grid>
             <Grid item xs={2} style={{paddingBottom: '25px'}}>
-            <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search by rune name" value={filterInput} onChange={handleSearch} />
+            <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Search" value={filterInput} onChange={handleSearch} />
             </Grid>
             <Grid item xs={2}></Grid>
             <Grid item xs={2}>

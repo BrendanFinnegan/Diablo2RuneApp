@@ -1100,7 +1100,7 @@ CombinationRune.create(word_name: "Phoenix (weapon)",  runeword_id: 69, rune_id:
 CombinationRune.create(word_name: "Phoenix (weapon)", runeword_id: 69, rune_id: 28)
 CombinationRune.create(word_name: "Phoenix (weapon)",  runeword_id: 69, rune_id: 31)
 
-Runeword.create(name: "Phoenix (armor)", category: 3, runeAmount: 4, item_type: '4 Socket Weapons/Shields', order: 'Vex + Vex + Lo + Jah', stats: "100% Chance To Cast level 40 Blaze When You Level-up
+Runeword.create(name: "Phoenix (armor)", category: 2, runeAmount: 4, item_type: '4 Socket Weapons/Shields', order: 'Vex + Vex + Lo + Jah', stats: "100% Chance To Cast level 40 Blaze When You Level-up
 40% Chance To Cast Level 22 Firestorm On Striking
 Level 10-15 Redemption Aura When Equipped (varies)
 +350-400 Defense Vs. Missile (varies)
