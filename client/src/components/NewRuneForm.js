@@ -10,12 +10,12 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 
 function NewRuneForm ({handleClose, allRunes, userRunes, setUserRunes, currentUser}) {
-    const [title, setTitle] = useState('')
+
     const [errors, setErrors] = useState('')
     const [formInput, setFormInput] = useState(1)
     const [formNameInput, setFormNameInput] = useState('El')
     const history = useHistory()
-console.log(allRunes)
+// console.log(allRunes)
     const useStyles = makeStyles((theme) => ({
         roots: {
           '& label.Mui-focused': {
@@ -68,7 +68,17 @@ console.log(allRunes)
         if (rune.id) {
             
             setUserRunes([...userRunes, rune])
-            history.push('/myrunes')
+            fetch(`/getRunes/${currentUser.id}`)
+            .then(res => res.json())
+            .then(data =>{
+                    if (data.length > 0){
+                      setUserRunes(data)
+                    }
+                  
+                 else {
+                  setUserRunes([])
+                }})
+             
         } 
         else {
             setErrors(rune)

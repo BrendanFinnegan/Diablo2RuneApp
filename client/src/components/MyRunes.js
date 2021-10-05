@@ -1,8 +1,8 @@
 import RuneCard from "./RuneCard"
 
 import NewRuneForm from "./NewRuneForm"
-import { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useState } from "react";
+
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import Accordion from '@material-ui/core/Accordion';

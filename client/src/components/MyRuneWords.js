@@ -1,7 +1,5 @@
+import { useState } from "react";
 
-
-import { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
 import Grid from '@material-ui/core/Grid'
 import RuneWordCard from './RuneWordCard'
 import Typography from '@material-ui/core/Typography';
@@ -19,7 +17,7 @@ function MyRuneWords ({userWords}) {
     }
 
     let filterCards = userWords.filter(runeword => runeword.name.toLowerCase().includes(filterInput.toLowerCase()) || runeword.stats.toLowerCase().includes(filterInput.toLowerCase()))
-
+    console.log(userWords)
 
     const useStyles = makeStyles((theme) => ({
         roots: {

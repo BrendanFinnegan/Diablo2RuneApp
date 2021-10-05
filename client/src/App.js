@@ -64,7 +64,7 @@ function App() {
         .then(data => {
           if (data.length > 0) {
             setMyRuneWords(data)
-            console.log(data)
+            // console.log(data)
           } 
         })
         }, [currentUser])
