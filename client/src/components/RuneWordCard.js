@@ -2,41 +2,12 @@ import { Card } from '@material-ui/core'
 
 import Grid from '@material-ui/core/Grid'
 
-import { makeStyles } from '@material-ui/core/styles';
+
 
 
 function RuneWordCard ({name, stats, id, rank, itemType, word, image}) {
 
-    const useStyles = makeStyles((theme) => ({
-        roots: {
-          '& label.Mui-focused': {
-            color: '#8d0000',
-          },
-          '& .MuiInput-underline:after': {
-            borderBottomColor: '#8d0000',
-          },
-          '& .MuiInput-underline:hover:not($disabled):not($focused):not($error):before': {
-            borderBottom: `3px solid #8d0000`
-        },
-        },  
-        root: {
-            width: '100%',
-            border: 'none', 
-            shadow: 'none', 
-            transition: 'none',
-            padding: '0px',
-            marginBottom: '0px'
-          },
-          heading: {
-            color: 'black',  
-            fontWeight: 'bold', 
-            border: 'none', 
-            shadow: 'none',
-            fontSize: 'large'
-         
-          },
-        }));
-        const classes = useStyles();
+    
         let statArray = stats.split('\n')
         let statBullets = statArray.map( stat => {
             return <li> {stat} </li>

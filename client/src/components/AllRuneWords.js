@@ -18,6 +18,14 @@ function AllRuneWords () {
         setFilterInput(e.target.value)
     }
 
+    allRuneWords.sort((a,b) => {
+       let aName = a.name
+       let bName = b.name
+       return (aName < bName) ? -1 : (aName > bName) ? 1 :0;
+   })
+
+    // console.log(sortedWords)
+
     let filterCards = allRuneWords.filter(runeword => runeword.name.toLowerCase().includes(filterInput.toLowerCase()) || runeword.stats.toLowerCase().includes(filterInput.toLowerCase()))
 
     useEffect(() => {
@@ -147,6 +155,7 @@ function AllRuneWords () {
       <Grid item xs={12}>
         
       <h2>All Rune Words</h2>
+      <p>These are all the Runewords that exist in the game</p>
       </Grid>
       <Grid item xs={4}></Grid>
             <Grid item xs={4} style={{paddingBottom: '25px'}}>
@@ -162,10 +171,9 @@ function AllRuneWords () {
         </Grid>
   
         
-        <br/>
-
-        <p>Click any word to expand for more details</p>
-        <br/>
+     
+        <p style={{marginLeft: '15px', textAlign: 'left'}}>Click any word to expand for more details</p>
+    
         <h2>Weapons</h2>
         {weaponWordCards}
         <h2>Armor</h2>

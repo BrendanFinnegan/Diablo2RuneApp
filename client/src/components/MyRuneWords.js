@@ -10,6 +10,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
 function MyRuneWords ({userWords}) {
+    
+    userWords.sort((a,b) => {
+        let aName = a.name
+        let bName = b.name
+        return (aName < bName) ? -1 : (aName > bName) ? 1 :0;
+    })
 
     const [filterInput, setFilterInput] = useState("")
     function handleSearch(e) {
@@ -17,7 +23,8 @@ function MyRuneWords ({userWords}) {
     }
 
     let filterCards = userWords.filter(runeword => runeword.name.toLowerCase().includes(filterInput.toLowerCase()) || runeword.stats.toLowerCase().includes(filterInput.toLowerCase()))
-    console.log(userWords)
+  
+
 
     const useStyles = makeStyles((theme) => ({
         roots: {
@@ -153,6 +160,7 @@ function MyRuneWords ({userWords}) {
       <Grid item xs={12}>
         
       <h2>My Rune Words</h2>
+      <p>These are all of the Runewords that you can make with the Runes in your collection</p>
       </Grid>
               <Grid item xs={4}></Grid>
             <Grid item xs={4} style={{paddingBottom: '25px'}}>
@@ -166,12 +174,12 @@ function MyRuneWords ({userWords}) {
               <Grid item xs={2}></Grid>
 
         </Grid>
-        <br/>
-            <p>Click any word to expand for more details</p>
 
-        <br/>
+            <p style={{marginLeft: '15px', textAlign: 'left'}}>Click any word to expand for more details</p>
 
-        <br/>
+
+
+  
         <h2>Weapons</h2>
         {weaponWordCards}
         <h2>Armor</h2>

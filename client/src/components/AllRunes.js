@@ -94,6 +94,7 @@ function AllRunes () {
             alignItems="center">
           <Grid item xs={12}>
             <h2>All Runes</h2>
+            <p>These are all the runes that exist in the game</p>
             </Grid>
     
             <Grid item xs={4}></Grid>
@@ -114,6 +115,7 @@ function AllRunes () {
                   
         
             </Grid>
+            <p style={{marginLeft: '15px', textAlign: 'left'}}>Click any rune to expand for more details</p>
             <Grid container
             direction="column"
             justifyContent="flex-start"

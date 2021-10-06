@@ -143,6 +143,7 @@ function MyRunes ({ userRunes, setUserRunes, allRunes, currentUser}) {
     
     
         </Grid>
+        <p style={{marginLeft: '15px', textAlign: 'left'}}>Click any rune to expand for more details</p>
         <Grid container
         direction="column"
         justifyContent="flex-start"

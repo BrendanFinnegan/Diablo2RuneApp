@@ -31,7 +31,7 @@ function Home({currentUser}) {
                
                     <Grid item xs={6}>
                     <h4>... and heres a demo for this app</h4> 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WlX1McM4YZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P3ZrN-m7VJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
                      </>
         
