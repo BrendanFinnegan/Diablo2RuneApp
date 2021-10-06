@@ -11,6 +11,7 @@ import MyRuneWords from './components/MyRuneWords';
 import MyRunes from './components/MyRunes';
 import AllRuneWords from './components/AllRuneWords';
 import SignUp from './components/SignUp';
+import AllRunes from './components/AllRunes';
 function App() {
 
   const [currentUser, setCurrentUser] = useState([])
@@ -105,9 +106,15 @@ style={{fontFamily:'Almendra'}}
           <MyRuneWords userWords={myRuneWords} currentUser={currentUser}/>
         </Route>
 
+        <Route exact path="/allrunes">
+          <AllRunes />
+        </Route>
+
         <Route exact path="/signup">
           <SignUp setCurrentUser={setCurrentUser}/>
         </Route>
+
+       
 
 
         <Route exact path="/allrunewords">

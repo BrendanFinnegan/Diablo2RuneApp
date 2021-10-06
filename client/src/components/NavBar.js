@@ -28,8 +28,12 @@ function NavBar({currentUser, setCurrentUser}){
 
                    <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/myrunewords"  >My Rune Words</Nav.Link> <br/>
                    <br/>
+                   <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/allrunes"  >All Runes</Nav.Link> 
+                   <br/> 
+                   <br/>
                    <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/allrunewords"  >All Rune Words</Nav.Link> <br/>
                    <br/> 
+                   
                 </> : null }
 
                 {currentUser.id ? <> <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/login"  onClick={handleLogout}>Logout</Nav.Link> </> : null}

@@ -40,7 +40,7 @@ function handleRemove (e) {
                 <img style={{marginTop: '20px', height: '50px', width: '50px'}} src={image} />
           </Grid>
           <Grid item xs={2}>
-                <Button onClick={handleRemove} style={{marginTop: '25px'}} className="gameButton"> Remove </Button>
+               {userId ? <Button onClick={handleRemove} style={{marginTop: '25px'}} className="gameButton"> Remove </Button> : null}
           </Grid>
 
 

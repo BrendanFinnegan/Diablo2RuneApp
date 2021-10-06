@@ -14,7 +14,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import { Button } from "react-bootstrap"
 
-function MyRunes ({setMyRuneWords, userRunes, setUserRunes, allRunes, currentUser}) {
+function MyRunes ({ userRunes, setUserRunes, allRunes, currentUser}) {
  
     const [open, setOpen] = useState(false);
 // console.log(userRunes)

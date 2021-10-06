@@ -23,13 +23,13 @@ function Home({currentUser}) {
 
                     <br/>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item xs={6}>
                     <h4>Heres a basic explanation of runewords</h4> 
 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/WlX1McM4YZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
-                    <Grid item xs={4}></Grid>
-                    <Grid item xs={4}>
+               
+                    <Grid item xs={6}>
                     <h4>... and heres a demo for this app</h4> 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/WlX1McM4YZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>

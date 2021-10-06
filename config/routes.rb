@@ -19,5 +19,5 @@ Rails.application.routes.draw do
   post "/userrunes", to: "user_runes#create"
   delete "/deleterune", to: "user_runes#delete_rune"
   post "/addbasics/:id", to: "user_runes#add_basics"
-
+ 
 end
