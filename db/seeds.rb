@@ -22,71 +22,71 @@ User.create(name: 'Brendan', email: 'Brendan@Brendan.com', password: '12345')
 User.create(name: 'Katie', email: 'Katie@Katie.com', password: '12345')
 
 
-Rune.create(rank: 1, name: 'El', armor_stats: '+15 Defense, +1 To Light Radius' , weapon_stats: '+50 To Attack Rating, +1 Light Radius', image_url: 'https://diablo2.diablowiki.net/File:R-el.gif')
+Rune.create(rank: 1, name: 'El', armor_stats: '+15 Defense, +1 To Light Radius' , weapon_stats: '+50 To Attack Rating, +1 Light Radius', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-el-rune-02.png')
 
 Rune.create(rank: 2, name: 'Eld', armor_stats: '15% Slower Stamina Drain/7% Increased Chance of Blocking(Shields)', weapon_stats: '+75% Damage To Undead, +50 Attack Rating Against Undead', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-eld-rune-02.png')
 
-Rune.create(rank: 3,name: 'Tir', armor_stats: '+2 To Mana After Each Kill', weapon_stats: '+2 To Mana After Each Kill', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeTir.gif')
+Rune.create(rank: 3,name: 'Tir', armor_stats: '+2 To Mana After Each Kill', weapon_stats: '+2 To Mana After Each Kill', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-tir-rune-01.png')
 
-Rune.create(rank: 4,name: 'Nef', armor_stats: '+30 Defense Vs. Missile', weapon_stats: 'Knockback', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeNef.gif')
+Rune.create(rank: 4,name: 'Nef', armor_stats: '+30 Defense Vs. Missile', weapon_stats: 'Knockback', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-nef-rune-01.png')
 
-Rune.create(rank: 5,name: 'Eth', armor_stats: 'Regenerate Mana 15%', weapon_stats: '-25% To Target Defense', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEth.gif')
+Rune.create(rank: 5,name: 'Eth', armor_stats: 'Regenerate Mana 15%', weapon_stats: '-25% To Target Defense', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-eth-rune-01.png')
 
-Rune.create(rank: 6,name: 'Ith', armor_stats: '15% Damage Taken Goes to Mana', weapon_stats: '+9 To Maximum Damage', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeIth.gif')
+Rune.create(rank: 6,name: 'Ith', armor_stats: '15% Damage Taken Goes to Mana', weapon_stats: '+9 To Maximum Damage', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ith-rune-01.png')
 
-Rune.create(rank: 7,name: 'Tal', armor_stats: 'Poison Resist 30%/Poison Resist 35%(Shields)', weapon_stats: '+75 Poison Damage Over 5 Seconds', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeTal.gif')
+Rune.create(rank: 7,name: 'Tal', armor_stats: 'Poison Resist 30%/Poison Resist 35%(Shields)', weapon_stats: '+75 Poison Damage Over 5 Seconds', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-tal-rune-01.png')
 
-Rune.create(rank: 8,name: 'Ral', armor_stats: 'Fire Resist 30%/Fire Resist 35%(Shields)', weapon_stats: 'Adds 5-30 Fire Damage', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeRal.gif')
+Rune.create(rank: 8,name: 'Ral', armor_stats: 'Fire Resist 30%/Fire Resist 35%(Shields)', weapon_stats: 'Adds 5-30 Fire Damage', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ral-rune-01.png')
 
-Rune.create(rank: 9,name: 'Ort', armor_stats: 'Lightning Resist 30%/Lightning Resist 35%(Shields)', weapon_stats: 'Adds 1-50 Lightning Damage', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeOrt.gif')
+Rune.create(rank: 9,name: 'Ort', armor_stats: 'Lightning Resist 30%/Lightning Resist 35%(Shields)', weapon_stats: 'Adds 1-50 Lightning Damage', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ort-rune-01.png')
 
-Rune.create(rank: 10, name: 'Thul', armor_stats: 'Cold Resist 30%/Cold Resist 35%(Shields)', weapon_stats: 'Adds 3-14 Cold Damage - 3 Second Duration', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeThul.gif')
+Rune.create(rank: 10, name: 'Thul', armor_stats: 'Cold Resist 30%/Cold Resist 35%(Shields)', weapon_stats: 'Adds 3-14 Cold Damage - 3 Second Duration', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-thul-rune-01.png')
 
-Rune.create(rank: 11,name: 'Amn', armor_stats: 'Attacker Takes Damage of 14', weapon_stats: '7% Life Stolen Per Hit', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeAmn.gif')
+Rune.create(rank: 11,name: 'Amn', armor_stats: 'Attacker Takes Damage of 14', weapon_stats: '7% Life Stolen Per Hit', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-amn-rune-01.png')
 
-Rune.create(rank: 12,name: 'Sol', armor_stats: 'Damage Reduced By 7', weapon_stats: '+9 To Minimum Damage', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeSol.gif')
+Rune.create(rank: 12,name: 'Sol', armor_stats: 'Damage Reduced By 7', weapon_stats: '+9 To Minimum Damage', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-sol-rune-01.png')
 
-Rune.create(rank: 13,name: 'Shael', armor_stats: '20% Faster Hit Recovery/20% Faster Block Rate(Shields)', weapon_stats: '20% Increased Attack Speed', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeShae.gif')
+Rune.create(rank: 13,name: 'Shael', armor_stats: '20% Faster Hit Recovery/20% Faster Block Rate(Shields)', weapon_stats: '20% Increased Attack Speed', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-shael-rune-01.png')
 
-Rune.create(rank: 14,name: 'Dol', armor_stats: 'Hit Causes Monster To Flee 25%', weapon_stats: 'Replenish Life +7', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeDol.gif')
+Rune.create(rank: 14,name: 'Dol', armor_stats: 'Hit Causes Monster To Flee 25%', weapon_stats: 'Replenish Life +7', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-dol-rune-01.png')
 
-Rune.create(rank: 15,name: 'Hel', armor_stats: 'Requirements -15%', weapon_stats: 'Requirements -20%', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeHel.gif')
+Rune.create(rank: 15,name: 'Hel', armor_stats: 'Requirements -15%', weapon_stats: 'Requirements -20%', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-hel-rune-01.png')
 
-Rune.create(rank: 16,name: 'Io', armor_stats: '+10 To Vitality', weapon_stats: '+10 To Vitality', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeIo.gif')
+Rune.create(rank: 16,name: 'Io', armor_stats: '+10 To Vitality', weapon_stats: '+10 To Vitality', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-io-rune-01.png')
 
-Rune.create(rank: 17,name: 'Lum', armor_stats: '+10 To Energy', weapon_stats: '+10 To Energy', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeLum.gif')
+Rune.create(rank: 17,name: 'Lum', armor_stats: '+10 To Energy', weapon_stats: '+10 To Energy', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-lum-rune-01.png')
 
-Rune.create(rank: 18,name: 'Ko', armor_stats: '+10 To Dexterity', weapon_stats: '+10 To Dexterity', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeKo.gif')
+Rune.create(rank: 18,name: 'Ko', armor_stats: '+10 To Dexterity', weapon_stats: '+10 To Dexterity', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ko-rune-01.png')
 
-Rune.create(rank: 19,name: 'Fal', armor_stats: '+10 To Strength', weapon_stats: '+10 To Strength', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeFal.gif')
+Rune.create(rank: 19,name: 'Fal', armor_stats: '+10 To Strength', weapon_stats: '+10 To Strength', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-fal-rune-01.png')
 
-Rune.create(rank: 20, name: 'Lem', armor_stats: '50% Extra Gold From Monsters', weapon_stats: '75% Extra Gold From Monsters', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeLem.gif')
+Rune.create(rank: 20, name: 'Lem', armor_stats: '50% Extra Gold From Monsters', weapon_stats: '75% Extra Gold From Monsters', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-lem-rune-01.png')
 
-Rune.create(rank: 21, name: 'Pul', armor_stats: '+30% Enhanced Defense', weapon_stats: '	+75% Damage To Demons, +100 Attack Rating Against Demons', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runePul.gif')
+Rune.create(rank: 21, name: 'Pul', armor_stats: '+30% Enhanced Defense', weapon_stats: '	+75% Damage To Demons, +100 Attack Rating Against Demons', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-pul-rune-01.png')
 
-Rune.create(rank: 22,name: 'Um', armor_stats: 'All Resistances +15(Armor/Helms) +22(Shields)', weapon_stats: '25% Chance of Open Wounds', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeUm.gif')
+Rune.create(rank: 22,name: 'Um', armor_stats: 'All Resistances +15(Armor/Helms) +22(Shields)', weapon_stats: '25% Chance of Open Wounds', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-um-rune-01.png')
 
-Rune.create(rank: 23,name: 'Mal', armor_stats: 'Magic Damage Reduced By 7', weapon_stats: 'Prevent Monster Heal', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeMal.gif')
+Rune.create(rank: 23,name: 'Mal', armor_stats: 'Magic Damage Reduced By 7', weapon_stats: 'Prevent Monster Heal', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-mal-rune-01.png')
 
-Rune.create(rank: 24,name: 'Ist', armor_stats: '30% Better Chance of Getting Magic Items', weapon_stats: '25% Better Chance of Getting Magic Items', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeIst.gif')
+Rune.create(rank: 24,name: 'Ist', armor_stats: '30% Better Chance of Getting Magic Items', weapon_stats: '25% Better Chance of Getting Magic Items', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ist-rune-01.png')
 
-Rune.create(rank: 25,name: 'Gul', armor_stats: '5% To Maximum Poison Resist', weapon_stats: '20% Bonus To Attack Rating', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeGul.gif')
+Rune.create(rank: 25,name: 'Gul', armor_stats: '5% To Maximum Poison Resist', weapon_stats: '20% Bonus To Attack Rating', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-gul-rune-01.png')
 
-Rune.create(rank: 26,name: 'Vex', armor_stats: '5% To Maximum Fire Resist', weapon_stats: '7% Mana Stolen Per Hit', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeVex.gif')
+Rune.create(rank: 26,name: 'Vex', armor_stats: '5% To Maximum Fire Resist', weapon_stats: '7% Mana Stolen Per Hit', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-vex-rune-01.png')
 
-Rune.create(rank: 27,name: 'Ohm', armor_stats: '5% To Maximum Cold Resist', weapon_stats: '+50% Enhanced Damage', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeOhm.gif')
+Rune.create(rank: 27,name: 'Ohm', armor_stats: '5% To Maximum Cold Resist', weapon_stats: '+50% Enhanced Damage', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ohm-rune-01.png')
 
-Rune.create(rank: 28,name: 'Lo', armor_stats: '5% To Maximum Lightning Resist', weapon_stats: '20% Deadly Strike', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeLo.gif')
+Rune.create(rank: 28,name: 'Lo', armor_stats: '5% To Maximum Lightning Resist', weapon_stats: '20% Deadly Strike', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-lo-rune-01.png')
 
-Rune.create(rank: 29,name: 'Sur', armor_stats: 'Maximum Mana 5%/+50 To Mana (Shields)', weapon_stats: 'Hit Blinds Target', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeSur.gif')
+Rune.create(rank: 29,name: 'Sur', armor_stats: 'Maximum Mana 5%/+50 To Mana (Shields)', weapon_stats: 'Hit Blinds Target', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-sur-rune-01.png')
 
-Rune.create(rank: 30,name: 'Ber', armor_stats: 'Damage Reduced by 8%', weapon_stats: '20% Chance of Crushing Blow', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeBer.gif')
+Rune.create(rank: 30,name: 'Ber', armor_stats: 'Damage Reduced by 8%', weapon_stats: '20% Chance of Crushing Blow', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-ber-rune-01.png')
 
-Rune.create(rank: 31,name: 'Jah', armor_stats: 'Increase Maximum Life 5%/+50 Life (Shields)', weapon_stats: "Ignore Target's Defense", image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeJo.gif')
+Rune.create(rank: 31,name: 'Jah', armor_stats: 'Increase Maximum Life 5%/+50 Life (Shields)', weapon_stats: "Ignore Target's Defense", image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-jah-rune-01.png')
 
-Rune.create(rank: 32,name: 'Cham', armor_stats: 'Cannot Be Frozen', weapon_stats: 'Freeze Target +3', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeCham.gif')
+Rune.create(rank: 32,name: 'Cham', armor_stats: 'Cannot Be Frozen', weapon_stats: 'Freeze Target +3', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-cham-rune-01.png')
 
-Rune.create(rank: 33,name: 'Zod', armor_stats: 'Indestructible', weapon_stats: 'Indestructible', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeZod.gif')
+Rune.create(rank: 33,name: 'Zod', armor_stats: 'Indestructible', weapon_stats: 'Indestructible', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-zod-rune-01.png')
 
 
 UserRune.create(name: 'El', user_id: 1, rune_id: 1)

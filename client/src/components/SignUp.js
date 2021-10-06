@@ -81,7 +81,7 @@ function SignUp({setCurrentUser}){
       <Grid item xs={2}></Grid>
       
       <Grid item xs={8}>
-        <h2 style={{margin: 'auto', align: 'center', fontFamily: 'Reem Kufi', color: 'black' }}>Signup</h2>
+        <h2 style={{margin: 'auto', align: 'center', fontFamily:'Almendra', color: 'black' }}>Signup</h2>
         
         <Form onSubmit={handleSubmit} style={{fontFamily: 'Reem Kufi', color: 'black' }}>
                 <TextField className={classes.roots} style={{backgroundColor: 'white', borderRadius: '5px'}} label="Name"  value={name} onChange={(e) => setName(e.target.value)}/>
