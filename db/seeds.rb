@@ -22,9 +22,9 @@ User.create(name: 'Brendan', email: 'Brendan@Brendan.com', password: '12345')
 User.create(name: 'Katie', email: 'Katie@Katie.com', password: '12345')
 
 
-Rune.create(rank: 1, name: 'El', armor_stats: '+15 Defense, +1 To Light Radius' , weapon_stats: '+50 To Attack Rating, +1 Light Radius', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEl.gif')
+Rune.create(rank: 1, name: 'El', armor_stats: '+15 Defense, +1 To Light Radius' , weapon_stats: '+50 To Attack Rating, +1 Light Radius', image_url: 'https://diablo2.diablowiki.net/File:R-el.gif')
 
-Rune.create(rank: 2, name: 'Eld', armor_stats: '15% Slower Stamina Drain/7% Increased Chance of Blocking(Shields)', weapon_stats: '+75% Damage To Undead, +50 Attack Rating Against Undead', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeEld.gif')
+Rune.create(rank: 2, name: 'Eld', armor_stats: '15% Slower Stamina Drain/7% Increased Chance of Blocking(Shields)', weapon_stats: '+75% Damage To Undead, +50 Attack Rating Against Undead', image_url: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/07/diablo-2-eld-rune-02.png')
 
 Rune.create(rank: 3,name: 'Tir', armor_stats: '+2 To Mana After Each Kill', weapon_stats: '+2 To Mana After Each Kill', image_url: 'http://classic.battle.net/images/battle/diablo2exp/images/runes/runeTir.gif')
 
