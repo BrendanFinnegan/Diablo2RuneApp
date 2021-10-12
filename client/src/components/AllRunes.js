@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Grid from '@material-ui/core/Grid'
-import RuneWordCard from './RuneWordCard'
 import Typography from '@material-ui/core/Typography';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
