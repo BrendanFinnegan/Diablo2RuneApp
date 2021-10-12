@@ -82,3 +82,7 @@ button.gameButton.btn.btn-primary:hover {
   border-color: #000000;
   border-radius: 5px;
 }
+
+.homeP{
+  margin: 20px
+}
