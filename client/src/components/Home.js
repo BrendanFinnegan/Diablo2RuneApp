@@ -40,7 +40,7 @@ function Home({currentUser}) {
                
                     <Grid item xs={6}>
                     <h4>... and heres a demo for this app</h4> 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P3ZrN-m7VJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://player.vimeo.com/video/631226030?h=085ea820bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
                      </>
         
