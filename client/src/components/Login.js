@@ -115,7 +115,7 @@ function Login({setCurrentUser}){
         </Form>
         </Grid>
         <Grid item xs={12}>
-            {/* {errors.error? errors.error.map(e => <p className="error-message" style={{fontFamily: 'Reem Kufi', color: 'black' }}>{e}</p>): null} */}
+            {errors.error? errors.error.map(e => <p className="error-message" style={{fontFamily: 'Almendra', color: 'black' }}>{e}</p>): null}
             </Grid>
             </Grid>
             </>

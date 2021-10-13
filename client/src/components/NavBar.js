@@ -33,6 +33,8 @@ function NavBar({currentUser, setCurrentUser}){
                    <br/>
                    <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/allrunewords"  >All Rune Words</Nav.Link> <br/>
                    <br/> 
+                   <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/aboutme">Contact Me</Nav.Link> <br/>
+                   <br/> 
                    
                 </> : null }
 

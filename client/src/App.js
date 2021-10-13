@@ -12,6 +12,7 @@ import MyRunes from './components/MyRunes';
 import AllRuneWords from './components/AllRuneWords';
 import SignUp from './components/SignUp';
 import AllRunes from './components/AllRunes';
+import AboutMe from './components/AboutMe';
 function App() {
 
   const [currentUser, setCurrentUser] = useState([])
@@ -112,6 +113,10 @@ style={{fontFamily:'Almendra'}}
 
         <Route exact path="/signup">
           <SignUp setCurrentUser={setCurrentUser}/>
+        </Route>
+
+        <Route exact path="/aboutme">
+          <AboutMe/>
         </Route>
 
        

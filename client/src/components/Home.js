@@ -35,7 +35,7 @@ function Home({currentUser}) {
 
                     <p className="homeP"> The purpose of this app is to allow players to log which runes they own, and then review which runewords they can create with that set of runes! </p>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WlX1McM4YZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/WlX1McM4YZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                     </Grid>
                
                     <Grid item xs={6}>
