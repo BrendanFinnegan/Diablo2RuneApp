@@ -105,11 +105,11 @@ function Login({setCurrentUser}){
            <br />
            <br/>
 
-            <Button type="submit" className="gameButton" style={{}}>Login</Button>
-            <br/>
+            <Button type="submit" className="gameButton" style={{marginRight:'15px'}}>Login</Button>
+           
             <Form.Label>Or</Form.Label>
-            <br/>
-            <Button onClick={handleClick} className="gameButton">Signup</Button>
+         
+            <Button onClick={handleClick} className="gameButton" style={{marginLeft:'15px'}} >Signup</Button>
             
 
         </Form>
@@ -117,7 +117,16 @@ function Login({setCurrentUser}){
         <Grid item xs={12}>
             {errors.error? errors.error.map(e => <p className="error-message" style={{fontFamily: 'Almendra', color: 'black' }}>{e}</p>): null}
             </Grid>
+            <Grid item xs={12}>
+
+                <br/>
+                <h4> App Demo Below! </h4>
+            
+            <iframe width="740" height="460" src="https://player.vimeo.com/video/631226030?h=085ea820bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Grid>
+            </Grid>
+           
+
             </>
     )
 }

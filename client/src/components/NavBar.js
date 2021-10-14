@@ -20,6 +20,8 @@ function NavBar({currentUser, setCurrentUser}){
                 <Nav className="me-auto">
                 <br/>
                 <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/">Home</Nav.Link>  <br/>
+                {currentUser.id ? null : <> <br/> <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/aboutme">Contact Me</Nav.Link> </> }
+
                 <br/>
                   {currentUser.id ? <> <Nav.Link style={{color: 'white', fontSize: 'large', fontFamily:'Almendra', paddingLeft: '40px'}} className="color-links" href="/myrunes">My Runes</Nav.Link>
                    <br/>
